@@ -1,0 +1,256 @@
+2025-12-05 10:54:31.448 | INFO     | __main__:<module>:60 - Using seed = 42, device = cuda:6 and output dir = runs/new/cifar10/temp/
+2025-12-05 10:54:31.494 | INFO     | __main__:<module>:66 - Loading the cifar10 dataset for training
+2025-12-05 10:54:32.597 | INFO     | __main__:<module>:72 - length of the train dataset = 50000
+2025-12-05 10:54:32.599 | INFO     | __main__:<module>:76 - length of the train split = 40000, validation split = 10000
+2025-12-05 10:54:32.599 | INFO     | __main__:<module>:79 - Using flip_probs = 0.0, channels = 3 for transforms
+2025-12-05 10:54:32.601 | INFO     | __main__:<module>:88 - Creating the dataloader with batch size = 128
+2025-12-05 10:54:32.602 | INFO     | __main__:<module>:102 - Initializing the UNET model with model dim = 128
+2025-12-05 10:54:33.169 | INFO     | __main__:<module>:112 - Initializaing EMA with decay = 0.999
+2025-12-05 10:54:33.176 | INFO     | __main__:<module>:127 - Running for epochs = 70 with objective = score
+2025-12-05 10:54:33.176 | INFO     | __main__:<module>:130 - Epoch = 1 / 70
+2025-12-05 10:56:07.565 | INFO     | __main__:<module>:166 - Training Time Taken = 94.39 seconds, loss = 0.14483984518117798, val loss = 0.10279569642830498
+2025-12-05 10:56:07.566 | INFO     | __main__:<module>:170 - Validation loss decreased from inf to 0.10279569642830498
+2025-12-05 10:56:07.566 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 10:56:07.702 | INFO     | __main__:<module>:130 - Epoch = 2 / 70
+2025-12-05 10:57:41.555 | INFO     | __main__:<module>:166 - Training Time Taken = 93.85 seconds, loss = 0.038175561628973904, val loss = 0.05944183652725401
+2025-12-05 10:57:41.556 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.10279569642830498 to 0.05944183652725401
+2025-12-05 10:57:41.556 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 10:57:41.772 | INFO     | __main__:<module>:130 - Epoch = 3 / 70
+2025-12-05 10:59:15.560 | INFO     | __main__:<module>:166 - Training Time Taken = 93.79 seconds, loss = 0.036524347806224426, val loss = 0.046539044597103625
+2025-12-05 10:59:15.560 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.05944183652725401 to 0.046539044597103625
+2025-12-05 10:59:15.560 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 10:59:15.786 | INFO     | __main__:<module>:130 - Epoch = 4 / 70
+2025-12-05 11:00:49.995 | INFO     | __main__:<module>:166 - Training Time Taken = 94.21 seconds, loss = 0.03565954475309521, val loss = 0.0411837306580966
+2025-12-05 11:00:49.996 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.046539044597103625 to 0.0411837306580966
+2025-12-05 11:00:49.996 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:00:50.261 | INFO     | __main__:<module>:130 - Epoch = 5 / 70
+2025-12-05 11:02:23.130 | INFO     | __main__:<module>:166 - Training Time Taken = 92.87 seconds, loss = 0.03508765271867807, val loss = 0.03870897990050195
+2025-12-05 11:02:23.130 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.0411837306580966 to 0.03870897990050195
+2025-12-05 11:02:23.130 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:02:23.355 | INFO     | __main__:<module>:130 - Epoch = 6 / 70
+2025-12-05 11:03:56.040 | INFO     | __main__:<module>:166 - Training Time Taken = 92.68 seconds, loss = 0.03455530228420568, val loss = 0.037419188814827156
+2025-12-05 11:03:56.041 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03870897990050195 to 0.037419188814827156
+2025-12-05 11:03:56.041 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:03:56.363 | INFO     | __main__:<module>:130 - Epoch = 7 / 70
+2025-12-05 11:05:28.832 | INFO     | __main__:<module>:166 - Training Time Taken = 92.47 seconds, loss = 0.03418689643660673, val loss = 0.03638895384118527
+2025-12-05 11:05:28.832 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.037419188814827156 to 0.03638895384118527
+2025-12-05 11:05:28.832 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:05:29.051 | INFO     | __main__:<module>:130 - Epoch = 8 / 70
+2025-12-05 11:07:03.137 | INFO     | __main__:<module>:166 - Training Time Taken = 94.09 seconds, loss = 0.033845869229195975, val loss = 0.0354714332785033
+2025-12-05 11:07:03.138 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03638895384118527 to 0.0354714332785033
+2025-12-05 11:07:03.138 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:07:03.363 | INFO     | __main__:<module>:130 - Epoch = 9 / 70
+2025-12-05 11:08:37.251 | INFO     | __main__:<module>:166 - Training Time Taken = 93.89 seconds, loss = 0.03361533250743017, val loss = 0.03477717002358618
+2025-12-05 11:08:37.252 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.0354714332785033 to 0.03477717002358618
+2025-12-05 11:08:37.252 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:08:37.567 | INFO     | __main__:<module>:130 - Epoch = 10 / 70
+2025-12-05 11:10:11.631 | INFO     | __main__:<module>:166 - Training Time Taken = 94.06 seconds, loss = 0.03337676544039966, val loss = 0.03414653826363479
+2025-12-05 11:10:11.632 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03477717002358618 to 0.03414653826363479
+2025-12-05 11:10:11.632 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:10:11.877 | INFO     | __main__:<module>:130 - Epoch = 11 / 70
+2025-12-05 11:11:45.576 | INFO     | __main__:<module>:166 - Training Time Taken = 93.7 seconds, loss = 0.03322113078004255, val loss = 0.03365410142872907
+2025-12-05 11:11:45.577 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03414653826363479 to 0.03365410142872907
+2025-12-05 11:11:45.577 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:11:45.807 | INFO     | __main__:<module>:130 - Epoch = 12 / 70
+2025-12-05 11:13:19.958 | INFO     | __main__:<module>:166 - Training Time Taken = 94.15 seconds, loss = 0.03302993282033041, val loss = 0.033217148831750774
+2025-12-05 11:13:19.959 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03365410142872907 to 0.033217148831750774
+2025-12-05 11:13:19.959 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:13:20.177 | INFO     | __main__:<module>:130 - Epoch = 13 / 70
+2025-12-05 11:14:54.518 | INFO     | __main__:<module>:166 - Training Time Taken = 94.34 seconds, loss = 0.03289423275965091, val loss = 0.03289265074778961
+2025-12-05 11:14:54.518 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.033217148831750774 to 0.03289265074778961
+2025-12-05 11:14:54.518 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:14:54.784 | INFO     | __main__:<module>:130 - Epoch = 14 / 70
+2025-12-05 11:16:28.917 | INFO     | __main__:<module>:166 - Training Time Taken = 94.13 seconds, loss = 0.03280924941999273, val loss = 0.03263873236748991
+2025-12-05 11:16:28.918 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03289265074778961 to 0.03263873236748991
+2025-12-05 11:16:28.918 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:16:29.138 | INFO     | __main__:<module>:130 - Epoch = 15 / 70
+2025-12-05 11:18:02.854 | INFO     | __main__:<module>:166 - Training Time Taken = 93.72 seconds, loss = 0.03267646758867719, val loss = 0.032431135826472994
+2025-12-05 11:18:02.855 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03263873236748991 to 0.032431135826472994
+2025-12-05 11:18:02.855 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:18:03.096 | INFO     | __main__:<module>:130 - Epoch = 16 / 70
+2025-12-05 11:19:37.318 | INFO     | __main__:<module>:166 - Training Time Taken = 94.22 seconds, loss = 0.03259877443980104, val loss = 0.03218990031488334
+2025-12-05 11:19:37.319 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.032431135826472994 to 0.03218990031488334
+2025-12-05 11:19:37.319 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:19:37.595 | INFO     | __main__:<module>:130 - Epoch = 17 / 70
+2025-12-05 11:21:12.186 | INFO     | __main__:<module>:166 - Training Time Taken = 94.59 seconds, loss = 0.03252721285096373, val loss = 0.031988514728749855
+2025-12-05 11:21:12.186 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03218990031488334 to 0.031988514728749855
+2025-12-05 11:21:12.187 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:21:12.402 | INFO     | __main__:<module>:130 - Epoch = 18 / 70
+2025-12-05 11:22:46.296 | INFO     | __main__:<module>:166 - Training Time Taken = 93.89 seconds, loss = 0.032423666794412435, val loss = 0.031933692319295076
+2025-12-05 11:22:46.297 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.031988514728749855 to 0.031933692319295076
+2025-12-05 11:22:46.297 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:22:46.554 | INFO     | __main__:<module>:130 - Epoch = 19 / 70
+2025-12-05 11:24:19.473 | INFO     | __main__:<module>:166 - Training Time Taken = 92.92 seconds, loss = 0.03238677400083968, val loss = 0.03179580701774434
+2025-12-05 11:24:19.473 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.031933692319295076 to 0.03179580701774434
+2025-12-05 11:24:19.473 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:24:19.739 | INFO     | __main__:<module>:130 - Epoch = 20 / 70
+2025-12-05 11:25:52.774 | INFO     | __main__:<module>:166 - Training Time Taken = 93.04 seconds, loss = 0.032329329405539335, val loss = 0.03168746326826041
+2025-12-05 11:25:52.775 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03179580701774434 to 0.03168746326826041
+2025-12-05 11:25:52.775 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:25:53.019 | INFO     | __main__:<module>:130 - Epoch = 21 / 70
+2025-12-05 11:27:25.736 | INFO     | __main__:<module>:166 - Training Time Taken = 92.72 seconds, loss = 0.03227154959362155, val loss = 0.031622301362737824
+2025-12-05 11:27:25.737 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03168746326826041 to 0.031622301362737824
+2025-12-05 11:27:25.737 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:27:26.433 | INFO     | __main__:<module>:130 - Epoch = 22 / 70
+2025-12-05 11:29:00.225 | INFO     | __main__:<module>:166 - Training Time Taken = 93.79 seconds, loss = 0.03219848178541317, val loss = 0.03150081521348108
+2025-12-05 11:29:00.226 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.031622301362737824 to 0.03150081521348108
+2025-12-05 11:29:00.226 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:29:00.454 | INFO     | __main__:<module>:130 - Epoch = 23 / 70
+2025-12-05 11:30:34.542 | INFO     | __main__:<module>:166 - Training Time Taken = 94.09 seconds, loss = 0.032161369312780734, val loss = 0.0313825330260811
+2025-12-05 11:30:34.542 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03150081521348108 to 0.0313825330260811
+2025-12-05 11:30:34.543 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:30:34.798 | INFO     | __main__:<module>:130 - Epoch = 24 / 70
+2025-12-05 11:32:09.214 | INFO     | __main__:<module>:166 - Training Time Taken = 94.41 seconds, loss = 0.03210303858636667, val loss = 0.03139103369056424
+2025-12-05 11:32:09.215 | INFO     | __main__:<module>:130 - Epoch = 25 / 70
+2025-12-05 11:33:43.270 | INFO     | __main__:<module>:166 - Training Time Taken = 94.05 seconds, loss = 0.03204903043449496, val loss = 0.031332916308996046
+2025-12-05 11:33:43.271 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.0313825330260811 to 0.031332916308996046
+2025-12-05 11:33:43.271 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:33:43.563 | INFO     | __main__:<module>:130 - Epoch = 26 / 70
+2025-12-05 11:35:17.433 | INFO     | __main__:<module>:166 - Training Time Taken = 93.87 seconds, loss = 0.03198993875505254, val loss = 0.03129504215490969
+2025-12-05 11:35:17.434 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.031332916308996046 to 0.03129504215490969
+2025-12-05 11:35:17.434 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:35:17.685 | INFO     | __main__:<module>:130 - Epoch = 27 / 70
+2025-12-05 11:36:51.849 | INFO     | __main__:<module>:166 - Training Time Taken = 94.16 seconds, loss = 0.031931556654147826, val loss = 0.03127346466047854
+2025-12-05 11:36:51.849 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03129504215490969 to 0.03127346466047854
+2025-12-05 11:36:51.850 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:36:52.085 | INFO     | __main__:<module>:130 - Epoch = 28 / 70
+2025-12-05 11:38:26.279 | INFO     | __main__:<module>:166 - Training Time Taken = 94.19 seconds, loss = 0.031890217922984986, val loss = 0.031162597922773302
+2025-12-05 11:38:26.279 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03127346466047854 to 0.031162597922773302
+2025-12-05 11:38:26.279 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:38:26.566 | INFO     | __main__:<module>:130 - Epoch = 29 / 70
+2025-12-05 11:40:00.298 | INFO     | __main__:<module>:166 - Training Time Taken = 93.73 seconds, loss = 0.03183874503349344, val loss = 0.031156669995641408
+2025-12-05 11:40:00.298 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.031162597922773302 to 0.031156669995641408
+2025-12-05 11:40:00.298 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:40:00.545 | INFO     | __main__:<module>:130 - Epoch = 30 / 70
+2025-12-05 11:41:34.563 | INFO     | __main__:<module>:166 - Training Time Taken = 94.02 seconds, loss = 0.031809028696280696, val loss = 0.03112924912402147
+2025-12-05 11:41:34.563 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.031156669995641408 to 0.03112924912402147
+2025-12-05 11:41:34.563 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:41:34.810 | INFO     | __main__:<module>:130 - Epoch = 31 / 70
+2025-12-05 11:43:08.775 | INFO     | __main__:<module>:166 - Training Time Taken = 93.97 seconds, loss = 0.031776344427428306, val loss = 0.031095940006684652
+2025-12-05 11:43:08.776 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03112924912402147 to 0.031095940006684652
+2025-12-05 11:43:08.776 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:43:09.764 | INFO     | __main__:<module>:130 - Epoch = 32 / 70
+2025-12-05 11:44:43.630 | INFO     | __main__:<module>:166 - Training Time Taken = 93.87 seconds, loss = 0.031720342453771505, val loss = 0.031115056145228918
+2025-12-05 11:44:43.632 | INFO     | __main__:<module>:130 - Epoch = 33 / 70
+2025-12-05 11:46:16.537 | INFO     | __main__:<module>:166 - Training Time Taken = 92.91 seconds, loss = 0.03165713379296441, val loss = 0.030994498701412465
+2025-12-05 11:46:16.537 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.031095940006684652 to 0.030994498701412465
+2025-12-05 11:46:16.538 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:46:17.218 | INFO     | __main__:<module>:130 - Epoch = 34 / 70
+2025-12-05 11:47:49.970 | INFO     | __main__:<module>:166 - Training Time Taken = 92.75 seconds, loss = 0.03162569827593554, val loss = 0.03100215943082224
+2025-12-05 11:47:49.972 | INFO     | __main__:<module>:130 - Epoch = 35 / 70
+2025-12-05 11:49:23.306 | INFO     | __main__:<module>:166 - Training Time Taken = 93.33 seconds, loss = 0.031589120025404344, val loss = 0.030945599527110026
+2025-12-05 11:49:23.307 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030994498701412465 to 0.030945599527110026
+2025-12-05 11:49:23.307 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:49:23.535 | INFO     | __main__:<module>:130 - Epoch = 36 / 70
+2025-12-05 11:50:57.664 | INFO     | __main__:<module>:166 - Training Time Taken = 94.13 seconds, loss = 0.031545149620634295, val loss = 0.031022792941407314
+2025-12-05 11:50:57.665 | INFO     | __main__:<module>:130 - Epoch = 37 / 70
+2025-12-05 11:52:31.840 | INFO     | __main__:<module>:166 - Training Time Taken = 94.17 seconds, loss = 0.03154192339426603, val loss = 0.030900977764137184
+2025-12-05 11:52:31.841 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030945599527110026 to 0.030900977764137184
+2025-12-05 11:52:31.841 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:52:32.074 | INFO     | __main__:<module>:130 - Epoch = 38 / 70
+2025-12-05 11:54:06.137 | INFO     | __main__:<module>:166 - Training Time Taken = 94.06 seconds, loss = 0.031524460471142976, val loss = 0.03092045367612869
+2025-12-05 11:54:06.138 | INFO     | __main__:<module>:130 - Epoch = 39 / 70
+2025-12-05 11:55:40.239 | INFO     | __main__:<module>:166 - Training Time Taken = 94.1 seconds, loss = 0.031440395558365995, val loss = 0.030890519506757773
+2025-12-05 11:55:40.239 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030900977764137184 to 0.030890519506757773
+2025-12-05 11:55:40.239 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:55:40.458 | INFO     | __main__:<module>:130 - Epoch = 40 / 70
+2025-12-05 11:57:14.577 | INFO     | __main__:<module>:166 - Training Time Taken = 94.12 seconds, loss = 0.0314367733860073, val loss = 0.030864974531003193
+2025-12-05 11:57:14.577 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030890519506757773 to 0.030864974531003193
+2025-12-05 11:57:14.577 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:57:15.391 | INFO     | __main__:<module>:130 - Epoch = 41 / 70
+2025-12-05 11:58:49.343 | INFO     | __main__:<module>:166 - Training Time Taken = 93.95 seconds, loss = 0.03138211414146538, val loss = 0.030844064641602432
+2025-12-05 11:58:49.343 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030864974531003193 to 0.030844064641602432
+2025-12-05 11:58:49.344 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 11:58:49.579 | INFO     | __main__:<module>:130 - Epoch = 42 / 70
+2025-12-05 12:00:23.415 | INFO     | __main__:<module>:166 - Training Time Taken = 93.84 seconds, loss = 0.031354072238928596, val loss = 0.03086275854914249
+2025-12-05 12:00:23.416 | INFO     | __main__:<module>:130 - Epoch = 43 / 70
+2025-12-05 12:01:57.669 | INFO     | __main__:<module>:166 - Training Time Taken = 94.25 seconds, loss = 0.03133804408220437, val loss = 0.030818722411235677
+2025-12-05 12:01:57.670 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030844064641602432 to 0.030818722411235677
+2025-12-05 12:01:57.670 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:01:57.922 | INFO     | __main__:<module>:130 - Epoch = 44 / 70
+2025-12-05 12:03:32.249 | INFO     | __main__:<module>:166 - Training Time Taken = 94.33 seconds, loss = 0.03132411339483893, val loss = 0.03081660394710076
+2025-12-05 12:03:32.250 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030818722411235677 to 0.03081660394710076
+2025-12-05 12:03:32.250 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:03:32.944 | INFO     | __main__:<module>:130 - Epoch = 45 / 70
+2025-12-05 12:05:07.066 | INFO     | __main__:<module>:166 - Training Time Taken = 94.12 seconds, loss = 0.03126111890846929, val loss = 0.030775521469267108
+2025-12-05 12:05:07.067 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03081660394710076 to 0.030775521469267108
+2025-12-05 12:05:07.067 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:05:07.278 | INFO     | __main__:<module>:130 - Epoch = 46 / 70
+2025-12-05 12:06:41.288 | INFO     | __main__:<module>:166 - Training Time Taken = 94.01 seconds, loss = 0.03125721532196854, val loss = 0.0307539075707333
+2025-12-05 12:06:41.289 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030775521469267108 to 0.0307539075707333
+2025-12-05 12:06:41.289 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:06:41.843 | INFO     | __main__:<module>:130 - Epoch = 47 / 70
+2025-12-05 12:08:14.463 | INFO     | __main__:<module>:166 - Training Time Taken = 92.62 seconds, loss = 0.031183784964461676, val loss = 0.030784354722009428
+2025-12-05 12:08:14.465 | INFO     | __main__:<module>:130 - Epoch = 48 / 70
+2025-12-05 12:09:47.359 | INFO     | __main__:<module>:166 - Training Time Taken = 92.89 seconds, loss = 0.03117517286691422, val loss = 0.030715660628261445
+2025-12-05 12:09:47.360 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.0307539075707333 to 0.030715660628261445
+2025-12-05 12:09:47.360 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:09:48.898 | INFO     | __main__:<module>:130 - Epoch = 49 / 70
+2025-12-05 12:11:22.315 | INFO     | __main__:<module>:166 - Training Time Taken = 93.42 seconds, loss = 0.03119319061430308, val loss = 0.030685406649791743
+2025-12-05 12:11:22.316 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030715660628261445 to 0.030685406649791743
+2025-12-05 12:11:22.316 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:11:22.547 | INFO     | __main__:<module>:130 - Epoch = 50 / 70
+2025-12-05 12:12:56.668 | INFO     | __main__:<module>:166 - Training Time Taken = 94.12 seconds, loss = 0.031153393266633297, val loss = 0.030694919084257716
+2025-12-05 12:12:56.669 | INFO     | __main__:<module>:130 - Epoch = 51 / 70
+2025-12-05 12:14:30.564 | INFO     | __main__:<module>:166 - Training Time Taken = 93.89 seconds, loss = 0.031096987824994156, val loss = 0.0306794775673483
+2025-12-05 12:14:30.564 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030685406649791743 to 0.0306794775673483
+2025-12-05 12:14:30.564 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:14:30.796 | INFO     | __main__:<module>:130 - Epoch = 52 / 70
+2025-12-05 12:16:05.084 | INFO     | __main__:<module>:166 - Training Time Taken = 94.29 seconds, loss = 0.03110992633544218, val loss = 0.03070626603557339
+2025-12-05 12:16:05.085 | INFO     | __main__:<module>:130 - Epoch = 53 / 70
+2025-12-05 12:17:39.025 | INFO     | __main__:<module>:166 - Training Time Taken = 93.94 seconds, loss = 0.0310635509820411, val loss = 0.03065829087473169
+2025-12-05 12:17:39.026 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.0306794775673483 to 0.03065829087473169
+2025-12-05 12:17:39.026 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:17:39.261 | INFO     | __main__:<module>:130 - Epoch = 54 / 70
+2025-12-05 12:19:13.628 | INFO     | __main__:<module>:166 - Training Time Taken = 94.37 seconds, loss = 0.03104852966535777, val loss = 0.030625283388020116
+2025-12-05 12:19:13.629 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03065829087473169 to 0.030625283388020116
+2025-12-05 12:19:13.629 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:19:13.872 | INFO     | __main__:<module>:130 - Epoch = 55 / 70
+2025-12-05 12:20:48.095 | INFO     | __main__:<module>:166 - Training Time Taken = 94.22 seconds, loss = 0.030997358405361542, val loss = 0.030659592792957643
+2025-12-05 12:20:48.096 | INFO     | __main__:<module>:130 - Epoch = 56 / 70
+2025-12-05 12:22:22.100 | INFO     | __main__:<module>:166 - Training Time Taken = 94.0 seconds, loss = 0.030983866778568337, val loss = 0.030656162177837346
+2025-12-05 12:22:22.101 | INFO     | __main__:<module>:130 - Epoch = 57 / 70
+2025-12-05 12:23:56.296 | INFO     | __main__:<module>:166 - Training Time Taken = 94.19 seconds, loss = 0.030957089171718105, val loss = 0.030560036295954184
+2025-12-05 12:23:56.297 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030625283388020116 to 0.030560036295954184
+2025-12-05 12:23:56.297 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:23:56.549 | INFO     | __main__:<module>:130 - Epoch = 58 / 70
+2025-12-05 12:25:30.712 | INFO     | __main__:<module>:166 - Training Time Taken = 94.16 seconds, loss = 0.03094729430640277, val loss = 0.03063238841257518
+2025-12-05 12:25:30.713 | INFO     | __main__:<module>:130 - Epoch = 59 / 70
+2025-12-05 12:27:04.746 | INFO     | __main__:<module>:166 - Training Time Taken = 94.03 seconds, loss = 0.0309325669663021, val loss = 0.030624729522232767
+2025-12-05 12:27:04.748 | INFO     | __main__:<module>:130 - Epoch = 60 / 70
+2025-12-05 12:28:38.191 | INFO     | __main__:<module>:166 - Training Time Taken = 93.44 seconds, loss = 0.030898325127391768, val loss = 0.030593257090902028
+2025-12-05 12:28:38.192 | INFO     | __main__:<module>:130 - Epoch = 61 / 70
+2025-12-05 12:30:11.233 | INFO     | __main__:<module>:166 - Training Time Taken = 93.04 seconds, loss = 0.030882628039477732, val loss = 0.030585326796656924
+2025-12-05 12:30:11.235 | INFO     | __main__:<module>:130 - Epoch = 62 / 70
+2025-12-05 12:31:43.887 | INFO     | __main__:<module>:166 - Training Time Taken = 92.65 seconds, loss = 0.03084596842170333, val loss = 0.03055217944651465
+2025-12-05 12:31:43.887 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.030560036295954184 to 0.03055217944651465
+2025-12-05 12:31:43.888 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:31:44.142 | INFO     | __main__:<module>:130 - Epoch = 63 / 70
+2025-12-05 12:33:17.286 | INFO     | __main__:<module>:166 - Training Time Taken = 93.14 seconds, loss = 0.0308665398436899, val loss = 0.03052671574339082
+2025-12-05 12:33:17.287 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03055217944651465 to 0.03052671574339082
+2025-12-05 12:33:17.287 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:33:17.523 | INFO     | __main__:<module>:130 - Epoch = 64 / 70
+2025-12-05 12:34:51.387 | INFO     | __main__:<module>:166 - Training Time Taken = 93.86 seconds, loss = 0.030833917488448156, val loss = 0.030556764830894107
+2025-12-05 12:34:51.388 | INFO     | __main__:<module>:130 - Epoch = 65 / 70
+2025-12-05 12:36:25.115 | INFO     | __main__:<module>:166 - Training Time Taken = 93.73 seconds, loss = 0.030790430823930154, val loss = 0.03052604016906853
+2025-12-05 12:36:25.116 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03052671574339082 to 0.03052604016906853
+2025-12-05 12:36:25.116 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:36:25.374 | INFO     | __main__:<module>:130 - Epoch = 66 / 70
+2025-12-05 12:37:59.428 | INFO     | __main__:<module>:166 - Training Time Taken = 94.05 seconds, loss = 0.030801810306339217, val loss = 0.03048131930865819
+2025-12-05 12:37:59.429 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03052604016906853 to 0.03048131930865819
+2025-12-05 12:37:59.429 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:37:59.658 | INFO     | __main__:<module>:130 - Epoch = 67 / 70
+2025-12-05 12:39:33.636 | INFO     | __main__:<module>:166 - Training Time Taken = 93.98 seconds, loss = 0.03077196245923781, val loss = 0.03052082464476175
+2025-12-05 12:39:33.637 | INFO     | __main__:<module>:130 - Epoch = 68 / 70
+2025-12-05 12:41:07.071 | INFO     | __main__:<module>:166 - Training Time Taken = 93.43 seconds, loss = 0.03071290373611755, val loss = 0.030443306022052523
+2025-12-05 12:41:07.071 | INFO     | __main__:<module>:170 - Validation loss decreased from 0.03048131930865819 to 0.030443306022052523
+2025-12-05 12:41:07.071 | INFO     | __main__:<module>:171 - Saving the model checkpoint at path = runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:41:07.306 | INFO     | __main__:<module>:130 - Epoch = 69 / 70
+2025-12-05 12:42:41.161 | INFO     | __main__:<module>:166 - Training Time Taken = 93.86 seconds, loss = 0.030709005850620162, val loss = 0.030464199053335795
+2025-12-05 12:42:41.163 | INFO     | __main__:<module>:130 - Epoch = 70 / 70
+2025-12-05 12:44:14.865 | INFO     | __main__:<module>:166 - Training Time Taken = 93.7 seconds, loss = 0.030680400863908733, val loss = 0.030514018091408513
+2025-12-05 12:44:14.866 | INFO     | __main__:<module>:185 - Training Completed. Loading the model from runs/new/cifar10/temp/single-noise-scale.bin
+2025-12-05 12:44:15.367 | INFO     | __main__:<module>:196 - Running langevin sampling for 50000 steps, saving every 500 steps
+2025-12-05 12:50:29.922 | INFO     | __main__:<module>:207 - Saving the sampled grid at path = runs/new/cifar10/temp/sampled_grid.png
+2025-12-05 12:50:31.304 | INFO     | __main__:<module>:218 - Saving the original grid at path = runs/new/cifar10/temp/original_grid.png
+2025-12-05 12:50:32.910 | INFO     | __main__:<module>:223 - Saving the json at path = runs/new/cifar10/temp/run_config.json

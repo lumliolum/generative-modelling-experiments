@@ -1,0 +1,14 @@
+{
+    "timesteps": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "batch_size": 128,
+    "eval_batch_size": 512,
+    "lr": 5e-05,
+    "epochs": 120,
+    "eval_epochs": 60,
+    "grad_clip": 1.0,
+    "seed": 42,
+    "device": "cuda:6",
+    "output_dir": "runs/cifar10/v2"
+}

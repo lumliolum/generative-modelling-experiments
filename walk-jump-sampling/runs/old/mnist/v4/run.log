@@ -1,0 +1,234 @@
+2025-11-14 19:01:45.807 | INFO     | __main__:<module>:49 - Using seed = 42, device = cuda:2 and output dir = runs/mnist/v4/
+2025-11-14 19:01:45.931 | INFO     | __main__:<module>:56 - length of the train dataset = 60000
+2025-11-14 19:01:45.933 | INFO     | __main__:<module>:60 - length of the train split = 48000, validation split = 12000
+2025-11-14 19:01:45.933 | INFO     | __main__:<module>:63 - Using flip_probs = 0.0, channels = 1 for training
+2025-11-14 19:01:45.933 | INFO     | __main__:<module>:72 - Creating the dataloader with batch size = 128
+2025-11-14 19:01:45.935 | INFO     | __main__:<module>:86 - Initializing the UNET model with model dim = 128
+2025-11-14 19:01:46.389 | INFO     | __main__:<module>:96 - Initializaing EMA with decay = 0.999
+2025-11-14 19:01:46.393 | INFO     | __main__:<module>:111 - Running for epochs = 70 with objective = denoiser
+2025-11-14 19:01:46.393 | INFO     | __main__:<module>:113 - Epoch = 1 / 70
+2025-11-14 19:02:50.244 | INFO     | __main__:<module>:146 - Training Time Taken = 63.85 seconds, loss = 0.08332517628371716, val loss = 0.5506385862827301
+2025-11-14 19:02:50.245 | INFO     | __main__:<module>:150 - Validation loss decreased from inf to 0.5506385862827301
+2025-11-14 19:02:50.245 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:02:50.309 | INFO     | __main__:<module>:113 - Epoch = 2 / 70
+2025-11-14 19:03:54.495 | INFO     | __main__:<module>:146 - Training Time Taken = 64.19 seconds, loss = 0.015004128788908323, val loss = 0.10539776752603815
+2025-11-14 19:03:54.495 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.5506385862827301 to 0.10539776752603815
+2025-11-14 19:03:54.495 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:03:54.608 | INFO     | __main__:<module>:113 - Epoch = 3 / 70
+2025-11-14 19:04:58.125 | INFO     | __main__:<module>:146 - Training Time Taken = 63.52 seconds, loss = 0.013354593959947427, val loss = 0.0473878856827604
+2025-11-14 19:04:58.125 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.10539776752603815 to 0.0473878856827604
+2025-11-14 19:04:58.125 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:04:58.301 | INFO     | __main__:<module>:113 - Epoch = 4 / 70
+2025-11-14 19:06:01.602 | INFO     | __main__:<module>:146 - Training Time Taken = 63.3 seconds, loss = 0.012772943439582983, val loss = 0.025369625439510702
+2025-11-14 19:06:01.602 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.0473878856827604 to 0.025369625439510702
+2025-11-14 19:06:01.602 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:06:01.712 | INFO     | __main__:<module>:113 - Epoch = 5 / 70
+2025-11-14 19:07:05.324 | INFO     | __main__:<module>:146 - Training Time Taken = 63.61 seconds, loss = 0.012379846282303333, val loss = 0.016796663641295534
+2025-11-14 19:07:05.325 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.025369625439510702 to 0.016796663641295534
+2025-11-14 19:07:05.325 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:07:05.442 | INFO     | __main__:<module>:113 - Epoch = 6 / 70
+2025-11-14 19:08:08.822 | INFO     | __main__:<module>:146 - Training Time Taken = 63.38 seconds, loss = 0.012148346891005834, val loss = 0.013752570544230812
+2025-11-14 19:08:08.822 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.016796663641295534 to 0.013752570544230812
+2025-11-14 19:08:08.822 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:08:08.929 | INFO     | __main__:<module>:113 - Epoch = 7 / 70
+2025-11-14 19:09:12.961 | INFO     | __main__:<module>:146 - Training Time Taken = 64.03 seconds, loss = 0.011989373539884884, val loss = 0.012532874922010493
+2025-11-14 19:09:12.962 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.013752570544230812 to 0.012532874922010493
+2025-11-14 19:09:12.962 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:09:13.078 | INFO     | __main__:<module>:113 - Epoch = 8 / 70
+2025-11-14 19:10:16.971 | INFO     | __main__:<module>:146 - Training Time Taken = 63.89 seconds, loss = 0.01189344904323419, val loss = 0.01196546143198267
+2025-11-14 19:10:16.971 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.012532874922010493 to 0.01196546143198267
+2025-11-14 19:10:16.971 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:10:18.051 | INFO     | __main__:<module>:113 - Epoch = 9 / 70
+2025-11-14 19:11:21.883 | INFO     | __main__:<module>:146 - Training Time Taken = 63.83 seconds, loss = 0.011735883422195911, val loss = 0.011659259789009044
+2025-11-14 19:11:21.883 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.01196546143198267 to 0.011659259789009044
+2025-11-14 19:11:21.883 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:11:21.994 | INFO     | __main__:<module>:113 - Epoch = 10 / 70
+2025-11-14 19:12:25.763 | INFO     | __main__:<module>:146 - Training Time Taken = 63.77 seconds, loss = 0.011667645367483298, val loss = 0.011536984436927324
+2025-11-14 19:12:25.764 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.011659259789009044 to 0.011536984436927324
+2025-11-14 19:12:25.764 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:12:25.875 | INFO     | __main__:<module>:113 - Epoch = 11 / 70
+2025-11-14 19:13:29.942 | INFO     | __main__:<module>:146 - Training Time Taken = 64.07 seconds, loss = 0.011566657866040865, val loss = 0.011367036168404083
+2025-11-14 19:13:29.942 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.011536984436927324 to 0.011367036168404083
+2025-11-14 19:13:29.942 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:13:30.052 | INFO     | __main__:<module>:113 - Epoch = 12 / 70
+2025-11-14 19:14:33.726 | INFO     | __main__:<module>:146 - Training Time Taken = 63.67 seconds, loss = 0.01153011983881394, val loss = 0.011274456294213838
+2025-11-14 19:14:33.727 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.011367036168404083 to 0.011274456294213838
+2025-11-14 19:14:33.727 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:14:35.013 | INFO     | __main__:<module>:113 - Epoch = 13 / 70
+2025-11-14 19:15:38.569 | INFO     | __main__:<module>:146 - Training Time Taken = 63.56 seconds, loss = 0.011433394233385722, val loss = 0.011170931160449982
+2025-11-14 19:15:38.570 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.011274456294213838 to 0.011170931160449982
+2025-11-14 19:15:38.570 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:15:38.685 | INFO     | __main__:<module>:113 - Epoch = 14 / 70
+2025-11-14 19:16:42.826 | INFO     | __main__:<module>:146 - Training Time Taken = 64.14 seconds, loss = 0.011350100549558798, val loss = 0.01108037993470405
+2025-11-14 19:16:42.827 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.011170931160449982 to 0.01108037993470405
+2025-11-14 19:16:42.827 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:16:42.940 | INFO     | __main__:<module>:113 - Epoch = 15 / 70
+2025-11-14 19:17:46.366 | INFO     | __main__:<module>:146 - Training Time Taken = 63.43 seconds, loss = 0.011337657508750756, val loss = 0.011030376413242613
+2025-11-14 19:17:46.367 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.01108037993470405 to 0.011030376413242613
+2025-11-14 19:17:46.367 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:17:47.343 | INFO     | __main__:<module>:113 - Epoch = 16 / 70
+2025-11-14 19:18:52.231 | INFO     | __main__:<module>:146 - Training Time Taken = 64.89 seconds, loss = 0.011263664317627748, val loss = 0.010978400261398959
+2025-11-14 19:18:52.232 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.011030376413242613 to 0.010978400261398959
+2025-11-14 19:18:52.232 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:18:52.340 | INFO     | __main__:<module>:113 - Epoch = 17 / 70
+2025-11-14 19:19:55.807 | INFO     | __main__:<module>:146 - Training Time Taken = 63.47 seconds, loss = 0.011236342812577883, val loss = 0.010906224733495966
+2025-11-14 19:19:55.808 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010978400261398959 to 0.010906224733495966
+2025-11-14 19:19:55.808 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:19:55.917 | INFO     | __main__:<module>:113 - Epoch = 18 / 70
+2025-11-14 19:21:00.333 | INFO     | __main__:<module>:146 - Training Time Taken = 64.42 seconds, loss = 0.011149360537528992, val loss = 0.010801322995982271
+2025-11-14 19:21:00.333 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010906224733495966 to 0.010801322995982271
+2025-11-14 19:21:00.333 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:21:00.441 | INFO     | __main__:<module>:113 - Epoch = 19 / 70
+2025-11-14 19:22:04.523 | INFO     | __main__:<module>:146 - Training Time Taken = 64.08 seconds, loss = 0.011115072491268316, val loss = 0.010778489661343555
+2025-11-14 19:22:04.524 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010801322995982271 to 0.010778489661343555
+2025-11-14 19:22:04.524 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:22:04.909 | INFO     | __main__:<module>:113 - Epoch = 20 / 70
+2025-11-14 19:23:08.481 | INFO     | __main__:<module>:146 - Training Time Taken = 63.57 seconds, loss = 0.011071836516261101, val loss = 0.010669891910746377
+2025-11-14 19:23:08.481 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010778489661343555 to 0.010669891910746377
+2025-11-14 19:23:08.481 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:23:08.593 | INFO     | __main__:<module>:113 - Epoch = 21 / 70
+2025-11-14 19:24:11.799 | INFO     | __main__:<module>:146 - Training Time Taken = 63.21 seconds, loss = 0.011025377094745636, val loss = 0.010687304700308658
+2025-11-14 19:24:11.800 | INFO     | __main__:<module>:113 - Epoch = 22 / 70
+2025-11-14 19:25:15.693 | INFO     | __main__:<module>:146 - Training Time Taken = 63.89 seconds, loss = 0.01099265639235576, val loss = 0.010633059143227465
+2025-11-14 19:25:15.694 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010669891910746377 to 0.010633059143227465
+2025-11-14 19:25:15.694 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:25:15.809 | INFO     | __main__:<module>:113 - Epoch = 23 / 70
+2025-11-14 19:26:19.511 | INFO     | __main__:<module>:146 - Training Time Taken = 63.7 seconds, loss = 0.010944748183091482, val loss = 0.010595396458310015
+2025-11-14 19:26:19.512 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010633059143227465 to 0.010595396458310015
+2025-11-14 19:26:19.512 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:26:19.631 | INFO     | __main__:<module>:113 - Epoch = 24 / 70
+2025-11-14 19:27:23.618 | INFO     | __main__:<module>:146 - Training Time Taken = 63.99 seconds, loss = 0.010937902289132276, val loss = 0.010602891346083042
+2025-11-14 19:27:23.618 | INFO     | __main__:<module>:113 - Epoch = 25 / 70
+2025-11-14 19:28:27.908 | INFO     | __main__:<module>:146 - Training Time Taken = 64.29 seconds, loss = 0.010884844149152438, val loss = 0.010511158717835837
+2025-11-14 19:28:27.908 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010595396458310015 to 0.010511158717835837
+2025-11-14 19:28:27.909 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:28:28.116 | INFO     | __main__:<module>:113 - Epoch = 26 / 70
+2025-11-14 19:29:33.503 | INFO     | __main__:<module>:146 - Training Time Taken = 65.39 seconds, loss = 0.01085614818831285, val loss = 0.01051481923167693
+2025-11-14 19:29:33.504 | INFO     | __main__:<module>:113 - Epoch = 27 / 70
+2025-11-14 19:30:37.763 | INFO     | __main__:<module>:146 - Training Time Taken = 64.26 seconds, loss = 0.010837452746927738, val loss = 0.010465600200869302
+2025-11-14 19:30:37.763 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010511158717835837 to 0.010465600200869302
+2025-11-14 19:30:37.763 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:30:39.108 | INFO     | __main__:<module>:113 - Epoch = 28 / 70
+2025-11-14 19:31:43.796 | INFO     | __main__:<module>:146 - Training Time Taken = 64.69 seconds, loss = 0.010827081315219401, val loss = 0.010447617322999113
+2025-11-14 19:31:43.796 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010465600200869302 to 0.010447617322999113
+2025-11-14 19:31:43.796 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:31:43.906 | INFO     | __main__:<module>:113 - Epoch = 29 / 70
+2025-11-14 19:32:48.082 | INFO     | __main__:<module>:146 - Training Time Taken = 64.18 seconds, loss = 0.010795756980776786, val loss = 0.010465515400976576
+2025-11-14 19:32:48.082 | INFO     | __main__:<module>:113 - Epoch = 30 / 70
+2025-11-14 19:33:52.234 | INFO     | __main__:<module>:146 - Training Time Taken = 64.15 seconds, loss = 0.010811723125477632, val loss = 0.010431682710793424
+2025-11-14 19:33:52.234 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010447617322999113 to 0.010431682710793424
+2025-11-14 19:33:52.234 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:33:52.341 | INFO     | __main__:<module>:113 - Epoch = 31 / 70
+2025-11-14 19:34:56.001 | INFO     | __main__:<module>:146 - Training Time Taken = 63.66 seconds, loss = 0.010770395450294018, val loss = 0.010417202012018954
+2025-11-14 19:34:56.002 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010431682710793424 to 0.010417202012018954
+2025-11-14 19:34:56.002 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:34:56.405 | INFO     | __main__:<module>:113 - Epoch = 32 / 70
+2025-11-14 19:36:00.056 | INFO     | __main__:<module>:146 - Training Time Taken = 63.65 seconds, loss = 0.01075339790681998, val loss = 0.010416936921946545
+2025-11-14 19:36:00.057 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010417202012018954 to 0.010416936921946545
+2025-11-14 19:36:00.057 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:36:00.165 | INFO     | __main__:<module>:113 - Epoch = 33 / 70
+2025-11-14 19:37:03.744 | INFO     | __main__:<module>:146 - Training Time Taken = 63.58 seconds, loss = 0.010753368929028511, val loss = 0.010348753627151885
+2025-11-14 19:37:03.744 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010416936921946545 to 0.010348753627151885
+2025-11-14 19:37:03.744 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:37:03.857 | INFO     | __main__:<module>:113 - Epoch = 34 / 70
+2025-11-14 19:38:07.545 | INFO     | __main__:<module>:146 - Training Time Taken = 63.69 seconds, loss = 0.010705690314372381, val loss = 0.010352185313054856
+2025-11-14 19:38:07.545 | INFO     | __main__:<module>:113 - Epoch = 35 / 70
+2025-11-14 19:39:10.755 | INFO     | __main__:<module>:146 - Training Time Taken = 63.21 seconds, loss = 0.010689811108012995, val loss = 0.01034920027558791
+2025-11-14 19:39:10.755 | INFO     | __main__:<module>:113 - Epoch = 36 / 70
+2025-11-14 19:40:13.897 | INFO     | __main__:<module>:146 - Training Time Taken = 63.14 seconds, loss = 0.010678886505464712, val loss = 0.010373484779228555
+2025-11-14 19:40:13.898 | INFO     | __main__:<module>:113 - Epoch = 37 / 70
+2025-11-14 19:41:17.284 | INFO     | __main__:<module>:146 - Training Time Taken = 63.39 seconds, loss = 0.010637397681673369, val loss = 0.010347963687270246
+2025-11-14 19:41:17.285 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010348753627151885 to 0.010347963687270246
+2025-11-14 19:41:17.285 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:41:17.390 | INFO     | __main__:<module>:113 - Epoch = 38 / 70
+2025-11-14 19:42:22.070 | INFO     | __main__:<module>:146 - Training Time Taken = 64.68 seconds, loss = 0.010638751499354839, val loss = 0.010354688529797058
+2025-11-14 19:42:22.071 | INFO     | __main__:<module>:113 - Epoch = 39 / 70
+2025-11-14 19:43:26.833 | INFO     | __main__:<module>:146 - Training Time Taken = 64.76 seconds, loss = 0.010613043479621411, val loss = 0.010352625253986805
+2025-11-14 19:43:26.834 | INFO     | __main__:<module>:113 - Epoch = 40 / 70
+2025-11-14 19:44:31.107 | INFO     | __main__:<module>:146 - Training Time Taken = 64.27 seconds, loss = 0.010611422521372637, val loss = 0.010331984104073428
+2025-11-14 19:44:31.108 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010347963687270246 to 0.010331984104073428
+2025-11-14 19:44:31.108 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:44:31.217 | INFO     | __main__:<module>:113 - Epoch = 41 / 70
+2025-11-14 19:45:34.992 | INFO     | __main__:<module>:146 - Training Time Taken = 63.77 seconds, loss = 0.010578740393122038, val loss = 0.010341676259215208
+2025-11-14 19:45:34.993 | INFO     | __main__:<module>:113 - Epoch = 42 / 70
+2025-11-14 19:46:37.820 | INFO     | __main__:<module>:146 - Training Time Taken = 62.83 seconds, loss = 0.01056381910542647, val loss = 0.010297332186885971
+2025-11-14 19:46:37.820 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010331984104073428 to 0.010297332186885971
+2025-11-14 19:46:37.821 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:46:37.924 | INFO     | __main__:<module>:113 - Epoch = 43 / 70
+2025-11-14 19:47:40.912 | INFO     | __main__:<module>:146 - Training Time Taken = 62.99 seconds, loss = 0.010563711514075596, val loss = 0.010310585382691723
+2025-11-14 19:47:40.913 | INFO     | __main__:<module>:113 - Epoch = 44 / 70
+2025-11-14 19:48:45.093 | INFO     | __main__:<module>:146 - Training Time Taken = 64.18 seconds, loss = 0.010543264677127202, val loss = 0.010270866763560062
+2025-11-14 19:48:45.093 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010297332186885971 to 0.010270866763560062
+2025-11-14 19:48:45.093 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:48:45.202 | INFO     | __main__:<module>:113 - Epoch = 45 / 70
+2025-11-14 19:49:48.981 | INFO     | __main__:<module>:146 - Training Time Taken = 63.78 seconds, loss = 0.010564253163834412, val loss = 0.01026450702920556
+2025-11-14 19:49:48.982 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010270866763560062 to 0.01026450702920556
+2025-11-14 19:49:48.982 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:49:50.089 | INFO     | __main__:<module>:113 - Epoch = 46 / 70
+2025-11-14 19:50:53.757 | INFO     | __main__:<module>:146 - Training Time Taken = 63.67 seconds, loss = 0.010525139374037583, val loss = 0.010253920566607663
+2025-11-14 19:50:53.757 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.01026450702920556 to 0.010253920566607663
+2025-11-14 19:50:53.757 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:50:53.865 | INFO     | __main__:<module>:113 - Epoch = 47 / 70
+2025-11-14 19:51:57.796 | INFO     | __main__:<module>:146 - Training Time Taken = 63.93 seconds, loss = 0.010495530684789022, val loss = 0.010227787318302596
+2025-11-14 19:51:57.796 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010253920566607663 to 0.010227787318302596
+2025-11-14 19:51:57.796 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:51:57.900 | INFO     | __main__:<module>:113 - Epoch = 48 / 70
+2025-11-14 19:53:01.805 | INFO     | __main__:<module>:146 - Training Time Taken = 63.9 seconds, loss = 0.010494850186010202, val loss = 0.010249861496243072
+2025-11-14 19:53:01.805 | INFO     | __main__:<module>:113 - Epoch = 49 / 70
+2025-11-14 19:54:06.161 | INFO     | __main__:<module>:146 - Training Time Taken = 64.36 seconds, loss = 0.010463240958750248, val loss = 0.010270511721597706
+2025-11-14 19:54:06.162 | INFO     | __main__:<module>:113 - Epoch = 50 / 70
+2025-11-14 19:55:10.500 | INFO     | __main__:<module>:146 - Training Time Taken = 64.34 seconds, loss = 0.010463233545422553, val loss = 0.010242484698190968
+2025-11-14 19:55:10.501 | INFO     | __main__:<module>:113 - Epoch = 51 / 70
+2025-11-14 19:56:15.279 | INFO     | __main__:<module>:146 - Training Time Taken = 64.78 seconds, loss = 0.010465711121757825, val loss = 0.010239388555922407
+2025-11-14 19:56:15.280 | INFO     | __main__:<module>:113 - Epoch = 52 / 70
+2025-11-14 19:57:21.353 | INFO     | __main__:<module>:146 - Training Time Taken = 66.07 seconds, loss = 0.010424514137208461, val loss = 0.010231817705913427
+2025-11-14 19:57:21.354 | INFO     | __main__:<module>:113 - Epoch = 53 / 70
+2025-11-14 19:58:26.054 | INFO     | __main__:<module>:146 - Training Time Taken = 64.7 seconds, loss = 0.010424676140149435, val loss = 0.010237169650165325
+2025-11-14 19:58:26.055 | INFO     | __main__:<module>:113 - Epoch = 54 / 70
+2025-11-14 19:59:29.871 | INFO     | __main__:<module>:146 - Training Time Taken = 63.82 seconds, loss = 0.010406075485050677, val loss = 0.010220103500846853
+2025-11-14 19:59:29.871 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010227787318302596 to 0.010220103500846853
+2025-11-14 19:59:29.871 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 19:59:29.973 | INFO     | __main__:<module>:113 - Epoch = 55 / 70
+2025-11-14 20:00:34.171 | INFO     | __main__:<module>:146 - Training Time Taken = 64.2 seconds, loss = 0.010399491136272749, val loss = 0.010192982357074606
+2025-11-14 20:00:34.171 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010220103500846853 to 0.010192982357074606
+2025-11-14 20:00:34.171 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 20:00:34.276 | INFO     | __main__:<module>:113 - Epoch = 56 / 70
+2025-11-14 20:01:38.325 | INFO     | __main__:<module>:146 - Training Time Taken = 64.05 seconds, loss = 0.010383659593760967, val loss = 0.010211468386919574
+2025-11-14 20:01:38.326 | INFO     | __main__:<module>:113 - Epoch = 57 / 70
+2025-11-14 20:02:42.456 | INFO     | __main__:<module>:146 - Training Time Taken = 64.13 seconds, loss = 0.01038598525027434, val loss = 0.010206984574014836
+2025-11-14 20:02:42.457 | INFO     | __main__:<module>:113 - Epoch = 58 / 70
+2025-11-14 20:03:47.228 | INFO     | __main__:<module>:146 - Training Time Taken = 64.77 seconds, loss = 0.010398148608704407, val loss = 0.010192470753842846
+2025-11-14 20:03:47.228 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010192982357074606 to 0.010192470753842846
+2025-11-14 20:03:47.228 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 20:03:47.335 | INFO     | __main__:<module>:113 - Epoch = 59 / 70
+2025-11-14 20:04:51.085 | INFO     | __main__:<module>:146 - Training Time Taken = 63.75 seconds, loss = 0.01036225522806247, val loss = 0.01020016602458472
+2025-11-14 20:04:51.086 | INFO     | __main__:<module>:113 - Epoch = 60 / 70
+2025-11-14 20:05:55.173 | INFO     | __main__:<module>:146 - Training Time Taken = 64.09 seconds, loss = 0.010379390142858028, val loss = 0.010219537742198147
+2025-11-14 20:05:55.174 | INFO     | __main__:<module>:113 - Epoch = 61 / 70
+2025-11-14 20:06:59.243 | INFO     | __main__:<module>:146 - Training Time Taken = 64.07 seconds, loss = 0.010365629225969314, val loss = 0.010161383384640546
+2025-11-14 20:06:59.243 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010192470753842846 to 0.010161383384640546
+2025-11-14 20:06:59.243 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 20:06:59.354 | INFO     | __main__:<module>:113 - Epoch = 62 / 70
+2025-11-14 20:08:03.598 | INFO     | __main__:<module>:146 - Training Time Taken = 64.24 seconds, loss = 0.010337280241151652, val loss = 0.010189691558480263
+2025-11-14 20:08:03.599 | INFO     | __main__:<module>:113 - Epoch = 63 / 70
+2025-11-14 20:09:08.064 | INFO     | __main__:<module>:146 - Training Time Taken = 64.47 seconds, loss = 0.010316796680291493, val loss = 0.010204233615560101
+2025-11-14 20:09:08.065 | INFO     | __main__:<module>:113 - Epoch = 64 / 70
+2025-11-14 20:10:11.772 | INFO     | __main__:<module>:146 - Training Time Taken = 63.71 seconds, loss = 0.010304070964455604, val loss = 0.010142636128721084
+2025-11-14 20:10:11.772 | INFO     | __main__:<module>:150 - Validation loss decreased from 0.010161383384640546 to 0.010142636128721084
+2025-11-14 20:10:11.773 | INFO     | __main__:<module>:151 - Saving the model checkpoint at path = runs/mnist/v4/single-noise-scale.bin
+2025-11-14 20:10:11.884 | INFO     | __main__:<module>:113 - Epoch = 65 / 70
+2025-11-14 20:11:15.896 | INFO     | __main__:<module>:146 - Training Time Taken = 64.01 seconds, loss = 0.010302283843358358, val loss = 0.010177070086703021
+2025-11-14 20:11:15.897 | INFO     | __main__:<module>:113 - Epoch = 66 / 70
+2025-11-14 20:12:18.984 | INFO     | __main__:<module>:146 - Training Time Taken = 63.09 seconds, loss = 0.01028484352181355, val loss = 0.01018477718722313
+2025-11-14 20:12:18.985 | INFO     | __main__:<module>:113 - Epoch = 67 / 70
+2025-11-14 20:13:21.952 | INFO     | __main__:<module>:146 - Training Time Taken = 62.97 seconds, loss = 0.010310690899689992, val loss = 0.010160421189713352
+2025-11-14 20:13:21.953 | INFO     | __main__:<module>:113 - Epoch = 68 / 70
+2025-11-14 20:14:25.598 | INFO     | __main__:<module>:146 - Training Time Taken = 63.64 seconds, loss = 0.010267382149895032, val loss = 0.01015350311756768
+2025-11-14 20:14:25.598 | INFO     | __main__:<module>:113 - Epoch = 69 / 70
+2025-11-14 20:15:28.764 | INFO     | __main__:<module>:146 - Training Time Taken = 63.17 seconds, loss = 0.010275700114667415, val loss = 0.010161689898752152
+2025-11-14 20:15:28.765 | INFO     | __main__:<module>:113 - Epoch = 70 / 70
+2025-11-14 20:16:31.900 | INFO     | __main__:<module>:146 - Training Time Taken = 63.14 seconds, loss = 0.010274297202626865, val loss = 0.01016888115555048
+2025-11-14 20:16:31.901 | INFO     | __main__:<module>:164 - Training Completed. Loading the model from runs/mnist/v4/single-noise-scale.bin
+2025-11-14 20:16:32.131 | INFO     | __main__:<module>:178 - Running langevin sampling for 50000 steps, saving every 500 steps
+2025-11-14 20:20:57.533 | INFO     | __main__:<module>:189 - Saving the sampled grid at path = runs/mnist/v4/sampled_grid.png
+2025-11-14 20:20:58.766 | INFO     | __main__:<module>:194 - Saving the json at path = runs/mnist/v4/run_config.json

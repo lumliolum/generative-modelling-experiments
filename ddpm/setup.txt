@@ -1,0 +1,6 @@
+conda create --name run python=3.12
+
+pip install numpy
+pip install torch==2.7.0+cu126 -f https://download.pytorch.org/whl/torch
+pip install torchvision==0.22.0+cu126 -f https://download.pytorch.org/whl/torchvision/
+pip install einops

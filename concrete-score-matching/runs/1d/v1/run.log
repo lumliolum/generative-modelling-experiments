@@ -1,0 +1,302 @@
+2025-12-24 16:38:46.873 | INFO     | __main__:<module>:159 - Using seed = 42, device = cuda:0 and output dir = runs/1d/v1/
+2025-12-24 16:38:49.807 | INFO     | __main__:training_loop:44 - Epoch = 1 / 100
+2025-12-24 16:38:52.287 | INFO     | __main__:training_loop:98 - Training Time Taken = 2.48 seconds, loss = -0.004669405353866565
+2025-12-24 16:38:52.288 | INFO     | __main__:training_loop:44 - Epoch = 2 / 100
+2025-12-24 16:38:53.614 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.33 seconds, loss = -0.04286787088272298
+2025-12-24 16:38:53.615 | INFO     | __main__:training_loop:44 - Epoch = 3 / 100
+2025-12-24 16:38:54.911 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.29 seconds, loss = -0.03023430065008675
+2025-12-24 16:38:54.914 | INFO     | __main__:training_loop:44 - Epoch = 4 / 100
+2025-12-24 16:38:56.269 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.35 seconds, loss = -0.030976553257720866
+2025-12-24 16:38:56.270 | INFO     | __main__:training_loop:44 - Epoch = 5 / 100
+2025-12-24 16:38:57.079 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.81 seconds, loss = -0.031023940629070733
+2025-12-24 16:38:57.080 | INFO     | __main__:training_loop:44 - Epoch = 6 / 100
+2025-12-24 16:38:58.377 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.3 seconds, loss = -0.02741052497439324
+2025-12-24 16:38:58.378 | INFO     | __main__:training_loop:44 - Epoch = 7 / 100
+2025-12-24 16:38:59.959 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.58 seconds, loss = -0.04703081167854701
+2025-12-24 16:38:59.965 | INFO     | __main__:training_loop:44 - Epoch = 8 / 100
+2025-12-24 16:39:01.876 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.91 seconds, loss = -0.049432579487277445
+2025-12-24 16:39:01.877 | INFO     | __main__:training_loop:44 - Epoch = 9 / 100
+2025-12-24 16:39:03.037 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.16 seconds, loss = -0.05668813767279409
+2025-12-24 16:39:03.038 | INFO     | __main__:training_loop:44 - Epoch = 10 / 100
+2025-12-24 16:39:04.314 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.28 seconds, loss = -0.03018533878597864
+2025-12-24 16:39:04.315 | INFO     | __main__:training_loop:44 - Epoch = 11 / 100
+2025-12-24 16:39:05.343 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.03 seconds, loss = -0.0237058549466881
+2025-12-24 16:39:05.344 | INFO     | __main__:training_loop:44 - Epoch = 12 / 100
+2025-12-24 16:39:06.148 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.8 seconds, loss = -0.06094519493828533
+2025-12-24 16:39:06.149 | INFO     | __main__:training_loop:44 - Epoch = 13 / 100
+2025-12-24 16:39:07.098 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.95 seconds, loss = -0.07576843348752921
+2025-12-24 16:39:07.099 | INFO     | __main__:training_loop:44 - Epoch = 14 / 100
+2025-12-24 16:39:08.393 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.29 seconds, loss = -0.08210219381151686
+2025-12-24 16:39:08.393 | INFO     | __main__:training_loop:44 - Epoch = 15 / 100
+2025-12-24 16:39:09.239 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.85 seconds, loss = -0.11572015981907678
+2025-12-24 16:39:09.242 | INFO     | __main__:training_loop:44 - Epoch = 16 / 100
+2025-12-24 16:39:10.676 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.43 seconds, loss = -0.190945261887684
+2025-12-24 16:39:10.676 | INFO     | __main__:training_loop:44 - Epoch = 17 / 100
+2025-12-24 16:39:12.218 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.54 seconds, loss = -0.28390136631620916
+2025-12-24 16:39:12.218 | INFO     | __main__:training_loop:44 - Epoch = 18 / 100
+2025-12-24 16:39:13.766 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.55 seconds, loss = -0.3335609274210444
+2025-12-24 16:39:13.767 | INFO     | __main__:training_loop:44 - Epoch = 19 / 100
+2025-12-24 16:39:15.335 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.57 seconds, loss = -0.4065679917052673
+2025-12-24 16:39:15.337 | INFO     | __main__:training_loop:44 - Epoch = 20 / 100
+2025-12-24 16:39:16.796 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.46 seconds, loss = -0.5502676441316392
+2025-12-24 16:39:16.797 | INFO     | __main__:training_loop:44 - Epoch = 21 / 100
+2025-12-24 16:39:17.785 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.99 seconds, loss = -0.5747803942223263
+2025-12-24 16:39:17.786 | INFO     | __main__:training_loop:44 - Epoch = 22 / 100
+2025-12-24 16:39:19.556 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.77 seconds, loss = -0.6554110028846248
+2025-12-24 16:39:19.557 | INFO     | __main__:training_loop:44 - Epoch = 23 / 100
+2025-12-24 16:39:20.458 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.9 seconds, loss = -0.7515745179098883
+2025-12-24 16:39:20.459 | INFO     | __main__:training_loop:44 - Epoch = 24 / 100
+2025-12-24 16:39:21.254 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.79 seconds, loss = -0.8669365295179331
+2025-12-24 16:39:21.254 | INFO     | __main__:training_loop:44 - Epoch = 25 / 100
+2025-12-24 16:39:22.489 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.23 seconds, loss = -0.9824875700435821
+2025-12-24 16:39:22.490 | INFO     | __main__:training_loop:44 - Epoch = 26 / 100
+2025-12-24 16:39:23.493 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.0 seconds, loss = -1.0200910150625144
+2025-12-24 16:39:23.494 | INFO     | __main__:training_loop:44 - Epoch = 27 / 100
+2025-12-24 16:39:24.987 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.49 seconds, loss = -1.0202437961936757
+2025-12-24 16:39:24.988 | INFO     | __main__:training_loop:44 - Epoch = 28 / 100
+2025-12-24 16:39:26.283 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.29 seconds, loss = -1.1073154510965773
+2025-12-24 16:39:26.284 | INFO     | __main__:training_loop:44 - Epoch = 29 / 100
+2025-12-24 16:39:27.077 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.79 seconds, loss = -1.1121080836672692
+2025-12-24 16:39:27.078 | INFO     | __main__:training_loop:44 - Epoch = 30 / 100
+2025-12-24 16:39:28.083 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.01 seconds, loss = -1.2527092255794319
+2025-12-24 16:39:28.084 | INFO     | __main__:training_loop:44 - Epoch = 31 / 100
+2025-12-24 16:39:29.550 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.47 seconds, loss = -1.3003417406302349
+2025-12-24 16:39:29.550 | INFO     | __main__:training_loop:44 - Epoch = 32 / 100
+2025-12-24 16:39:30.492 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.94 seconds, loss = -1.188484283579383
+2025-12-24 16:39:30.493 | INFO     | __main__:training_loop:44 - Epoch = 33 / 100
+2025-12-24 16:39:31.654 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.16 seconds, loss = -1.1566708926941938
+2025-12-24 16:39:31.654 | INFO     | __main__:training_loop:44 - Epoch = 34 / 100
+2025-12-24 16:39:32.507 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.85 seconds, loss = -1.3208840699142712
+2025-12-24 16:39:32.508 | INFO     | __main__:training_loop:44 - Epoch = 35 / 100
+2025-12-24 16:39:34.203 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.69 seconds, loss = -1.2837720585476822
+2025-12-24 16:39:34.203 | INFO     | __main__:training_loop:44 - Epoch = 36 / 100
+2025-12-24 16:39:35.208 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.01 seconds, loss = -1.2962015020619533
+2025-12-24 16:39:35.209 | INFO     | __main__:training_loop:44 - Epoch = 37 / 100
+2025-12-24 16:39:36.017 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.81 seconds, loss = -1.492107132437882
+2025-12-24 16:39:36.018 | INFO     | __main__:training_loop:44 - Epoch = 38 / 100
+2025-12-24 16:39:37.633 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.62 seconds, loss = -1.431073937066801
+2025-12-24 16:39:37.634 | INFO     | __main__:training_loop:44 - Epoch = 39 / 100
+2025-12-24 16:39:39.711 | INFO     | __main__:training_loop:98 - Training Time Taken = 2.07 seconds, loss = -1.4306351341259707
+2025-12-24 16:39:39.712 | INFO     | __main__:training_loop:44 - Epoch = 40 / 100
+2025-12-24 16:39:41.557 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.84 seconds, loss = -1.6162162844542485
+2025-12-24 16:39:41.557 | INFO     | __main__:training_loop:44 - Epoch = 41 / 100
+2025-12-24 16:39:42.658 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.1 seconds, loss = -1.4294620847246449
+2025-12-24 16:39:42.659 | INFO     | __main__:training_loop:44 - Epoch = 42 / 100
+2025-12-24 16:39:44.280 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.62 seconds, loss = -1.4739024969422894
+2025-12-24 16:39:44.287 | INFO     | __main__:training_loop:44 - Epoch = 43 / 100
+2025-12-24 16:39:45.618 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.33 seconds, loss = -1.3872497028605952
+2025-12-24 16:39:45.619 | INFO     | __main__:training_loop:44 - Epoch = 44 / 100
+2025-12-24 16:39:47.381 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.76 seconds, loss = -1.5019886106442495
+2025-12-24 16:39:47.382 | INFO     | __main__:training_loop:44 - Epoch = 45 / 100
+2025-12-24 16:39:49.088 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.71 seconds, loss = -1.4950846429843052
+2025-12-24 16:39:49.088 | INFO     | __main__:training_loop:44 - Epoch = 46 / 100
+2025-12-24 16:39:50.632 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.54 seconds, loss = -1.5694956487151468
+2025-12-24 16:39:50.633 | INFO     | __main__:training_loop:44 - Epoch = 47 / 100
+2025-12-24 16:39:52.138 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.51 seconds, loss = -1.5459919814850873
+2025-12-24 16:39:52.139 | INFO     | __main__:training_loop:44 - Epoch = 48 / 100
+2025-12-24 16:39:53.444 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.3 seconds, loss = -1.740531271809985
+2025-12-24 16:39:53.444 | INFO     | __main__:training_loop:44 - Epoch = 49 / 100
+2025-12-24 16:39:55.298 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.85 seconds, loss = -1.629247672238927
+2025-12-24 16:39:55.299 | INFO     | __main__:training_loop:44 - Epoch = 50 / 100
+2025-12-24 16:39:57.013 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.71 seconds, loss = -1.713166945299525
+2025-12-24 16:39:57.021 | INFO     | __main__:training_loop:44 - Epoch = 51 / 100
+2025-12-24 16:39:58.708 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.69 seconds, loss = -1.6047636232558329
+2025-12-24 16:39:58.709 | INFO     | __main__:training_loop:44 - Epoch = 52 / 100
+2025-12-24 16:40:00.308 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.6 seconds, loss = -1.6951252996541892
+2025-12-24 16:40:00.308 | INFO     | __main__:training_loop:44 - Epoch = 53 / 100
+2025-12-24 16:40:02.203 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.89 seconds, loss = -1.8995457971171967
+2025-12-24 16:40:02.203 | INFO     | __main__:training_loop:44 - Epoch = 54 / 100
+2025-12-24 16:40:04.119 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.92 seconds, loss = -1.605219183074441
+2025-12-24 16:40:04.119 | INFO     | __main__:training_loop:44 - Epoch = 55 / 100
+2025-12-24 16:40:05.486 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.37 seconds, loss = -1.691398813846005
+2025-12-24 16:40:05.487 | INFO     | __main__:training_loop:44 - Epoch = 56 / 100
+2025-12-24 16:40:06.666 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.18 seconds, loss = -1.909526140067228
+2025-12-24 16:40:06.666 | INFO     | __main__:training_loop:44 - Epoch = 57 / 100
+2025-12-24 16:40:08.007 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.34 seconds, loss = -1.9884625551806894
+2025-12-24 16:40:08.008 | INFO     | __main__:training_loop:44 - Epoch = 58 / 100
+2025-12-24 16:40:09.227 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.22 seconds, loss = -2.0627228761934173
+2025-12-24 16:40:09.228 | INFO     | __main__:training_loop:44 - Epoch = 59 / 100
+2025-12-24 16:40:10.825 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.6 seconds, loss = -2.360887711215171
+2025-12-24 16:40:10.826 | INFO     | __main__:training_loop:44 - Epoch = 60 / 100
+2025-12-24 16:40:12.103 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.28 seconds, loss = -2.517281975715783
+2025-12-24 16:40:12.104 | INFO     | __main__:training_loop:44 - Epoch = 61 / 100
+2025-12-24 16:40:13.543 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.44 seconds, loss = -2.3350930213928223
+2025-12-24 16:40:13.544 | INFO     | __main__:training_loop:44 - Epoch = 62 / 100
+2025-12-24 16:40:15.291 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.75 seconds, loss = -2.5424552791437525
+2025-12-24 16:40:15.292 | INFO     | __main__:training_loop:44 - Epoch = 63 / 100
+2025-12-24 16:40:17.043 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.75 seconds, loss = -2.628936313519812
+2025-12-24 16:40:17.049 | INFO     | __main__:training_loop:44 - Epoch = 64 / 100
+2025-12-24 16:40:18.444 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.39 seconds, loss = -2.596949088345667
+2025-12-24 16:40:18.445 | INFO     | __main__:training_loop:44 - Epoch = 65 / 100
+2025-12-24 16:40:19.595 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.15 seconds, loss = -2.821034067755292
+2025-12-24 16:40:19.595 | INFO     | __main__:training_loop:44 - Epoch = 66 / 100
+2025-12-24 16:40:20.915 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.32 seconds, loss = -3.033685732039676
+2025-12-24 16:40:20.921 | INFO     | __main__:training_loop:44 - Epoch = 67 / 100
+2025-12-24 16:40:22.227 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.31 seconds, loss = -3.03404955955068
+2025-12-24 16:40:22.228 | INFO     | __main__:training_loop:44 - Epoch = 68 / 100
+2025-12-24 16:40:23.137 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.91 seconds, loss = -3.204427785934157
+2025-12-24 16:40:23.138 | INFO     | __main__:training_loop:44 - Epoch = 69 / 100
+2025-12-24 16:40:24.264 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.13 seconds, loss = -3.2547344508444427
+2025-12-24 16:40:24.265 | INFO     | __main__:training_loop:44 - Epoch = 70 / 100
+2025-12-24 16:40:26.237 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.97 seconds, loss = -3.424464659326395
+2025-12-24 16:40:26.237 | INFO     | __main__:training_loop:44 - Epoch = 71 / 100
+2025-12-24 16:40:27.851 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.61 seconds, loss = -3.543020609078134
+2025-12-24 16:40:27.851 | INFO     | __main__:training_loop:44 - Epoch = 72 / 100
+2025-12-24 16:40:29.030 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.18 seconds, loss = -3.3826634337188333
+2025-12-24 16:40:29.031 | INFO     | __main__:training_loop:44 - Epoch = 73 / 100
+2025-12-24 16:40:30.219 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.19 seconds, loss = -3.3692031362254147
+2025-12-24 16:40:30.222 | INFO     | __main__:training_loop:44 - Epoch = 74 / 100
+2025-12-24 16:40:31.512 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.29 seconds, loss = -3.7278710201287724
+2025-12-24 16:40:31.519 | INFO     | __main__:training_loop:44 - Epoch = 75 / 100
+2025-12-24 16:40:32.881 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.36 seconds, loss = -3.7429580308829142
+2025-12-24 16:40:32.881 | INFO     | __main__:training_loop:44 - Epoch = 76 / 100
+2025-12-24 16:40:33.662 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.78 seconds, loss = -3.6952355606540754
+2025-12-24 16:40:33.663 | INFO     | __main__:training_loop:44 - Epoch = 77 / 100
+2025-12-24 16:40:34.406 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.74 seconds, loss = -4.1209545348100605
+2025-12-24 16:40:34.407 | INFO     | __main__:training_loop:44 - Epoch = 78 / 100
+2025-12-24 16:40:35.176 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.77 seconds, loss = -4.21359245640457
+2025-12-24 16:40:35.176 | INFO     | __main__:training_loop:44 - Epoch = 79 / 100
+2025-12-24 16:40:36.133 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.96 seconds, loss = -3.981902220446593
+2025-12-24 16:40:36.134 | INFO     | __main__:training_loop:44 - Epoch = 80 / 100
+2025-12-24 16:40:37.508 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.37 seconds, loss = -4.1002876120767775
+2025-12-24 16:40:37.509 | INFO     | __main__:training_loop:44 - Epoch = 81 / 100
+2025-12-24 16:40:38.697 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.19 seconds, loss = -4.149579457416656
+2025-12-24 16:40:38.698 | INFO     | __main__:training_loop:44 - Epoch = 82 / 100
+2025-12-24 16:40:40.047 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.35 seconds, loss = -4.140373658982052
+2025-12-24 16:40:40.051 | INFO     | __main__:training_loop:44 - Epoch = 83 / 100
+2025-12-24 16:40:40.887 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.84 seconds, loss = -4.238809702502694
+2025-12-24 16:40:40.888 | INFO     | __main__:training_loop:44 - Epoch = 84 / 100
+2025-12-24 16:40:41.683 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.79 seconds, loss = -4.3233984488590504
+2025-12-24 16:40:41.684 | INFO     | __main__:training_loop:44 - Epoch = 85 / 100
+2025-12-24 16:40:42.759 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.07 seconds, loss = -4.299586764566458
+2025-12-24 16:40:42.760 | INFO     | __main__:training_loop:44 - Epoch = 86 / 100
+2025-12-24 16:40:44.103 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.34 seconds, loss = -4.42684976158628
+2025-12-24 16:40:44.104 | INFO     | __main__:training_loop:44 - Epoch = 87 / 100
+2025-12-24 16:40:45.170 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.07 seconds, loss = -4.717773107966041
+2025-12-24 16:40:45.171 | INFO     | __main__:training_loop:44 - Epoch = 88 / 100
+2025-12-24 16:40:46.542 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.37 seconds, loss = -4.541819548151295
+2025-12-24 16:40:46.542 | INFO     | __main__:training_loop:44 - Epoch = 89 / 100
+2025-12-24 16:40:47.960 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.42 seconds, loss = -4.6692076048273945
+2025-12-24 16:40:47.961 | INFO     | __main__:training_loop:44 - Epoch = 90 / 100
+2025-12-24 16:40:49.694 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.73 seconds, loss = -4.647255914226459
+2025-12-24 16:40:49.695 | INFO     | __main__:training_loop:44 - Epoch = 91 / 100
+2025-12-24 16:40:50.671 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.98 seconds, loss = -4.624484463102498
+2025-12-24 16:40:50.671 | INFO     | __main__:training_loop:44 - Epoch = 92 / 100
+2025-12-24 16:40:51.420 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.75 seconds, loss = -4.6602700265349855
+2025-12-24 16:40:51.421 | INFO     | __main__:training_loop:44 - Epoch = 93 / 100
+2025-12-24 16:40:52.246 | INFO     | __main__:training_loop:98 - Training Time Taken = 0.83 seconds, loss = -4.854660930147596
+2025-12-24 16:40:52.247 | INFO     | __main__:training_loop:44 - Epoch = 94 / 100
+2025-12-24 16:40:53.736 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.49 seconds, loss = -4.640100832957371
+2025-12-24 16:40:53.737 | INFO     | __main__:training_loop:44 - Epoch = 95 / 100
+2025-12-24 16:40:54.797 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.06 seconds, loss = -5.322537990132714
+2025-12-24 16:40:54.798 | INFO     | __main__:training_loop:44 - Epoch = 96 / 100
+2025-12-24 16:40:56.393 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.59 seconds, loss = -5.117257910928909
+2025-12-24 16:40:56.394 | INFO     | __main__:training_loop:44 - Epoch = 97 / 100
+2025-12-24 16:40:57.692 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.3 seconds, loss = -4.979756669633708
+2025-12-24 16:40:57.693 | INFO     | __main__:training_loop:44 - Epoch = 98 / 100
+2025-12-24 16:40:58.899 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.21 seconds, loss = -5.125130944950565
+2025-12-24 16:40:58.900 | INFO     | __main__:training_loop:44 - Epoch = 99 / 100
+2025-12-24 16:41:00.148 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.25 seconds, loss = -4.9452034515939705
+2025-12-24 16:41:00.149 | INFO     | __main__:training_loop:44 - Epoch = 100 / 100
+2025-12-24 16:41:01.260 | INFO     | __main__:training_loop:98 - Training Time Taken = 1.11 seconds, loss = -5.003097904715569
+2025-12-24 16:41:01.454 | INFO     | __main__:<module>:203 - Running inference to generate 1000 samples
+2025-12-24 16:41:02.412 | INFO     | __main__:<module>:209 - 10 samples generated
+2025-12-24 16:41:03.330 | INFO     | __main__:<module>:209 - 20 samples generated
+2025-12-24 16:41:04.179 | INFO     | __main__:<module>:209 - 30 samples generated
+2025-12-24 16:41:05.061 | INFO     | __main__:<module>:209 - 40 samples generated
+2025-12-24 16:41:05.934 | INFO     | __main__:<module>:209 - 50 samples generated
+2025-12-24 16:41:06.427 | INFO     | __main__:<module>:209 - 60 samples generated
+2025-12-24 16:41:07.275 | INFO     | __main__:<module>:209 - 70 samples generated
+2025-12-24 16:41:08.148 | INFO     | __main__:<module>:209 - 80 samples generated
+2025-12-24 16:41:08.926 | INFO     | __main__:<module>:209 - 90 samples generated
+2025-12-24 16:41:09.981 | INFO     | __main__:<module>:209 - 100 samples generated
+2025-12-24 16:41:11.062 | INFO     | __main__:<module>:209 - 110 samples generated
+2025-12-24 16:41:12.132 | INFO     | __main__:<module>:209 - 120 samples generated
+2025-12-24 16:41:13.155 | INFO     | __main__:<module>:209 - 130 samples generated
+2025-12-24 16:41:13.951 | INFO     | __main__:<module>:209 - 140 samples generated
+2025-12-24 16:41:14.387 | INFO     | __main__:<module>:209 - 150 samples generated
+2025-12-24 16:41:14.820 | INFO     | __main__:<module>:209 - 160 samples generated
+2025-12-24 16:41:15.239 | INFO     | __main__:<module>:209 - 170 samples generated
+2025-12-24 16:41:15.932 | INFO     | __main__:<module>:209 - 180 samples generated
+2025-12-24 16:41:16.981 | INFO     | __main__:<module>:209 - 190 samples generated
+2025-12-24 16:41:17.996 | INFO     | __main__:<module>:209 - 200 samples generated
+2025-12-24 16:41:19.039 | INFO     | __main__:<module>:209 - 210 samples generated
+2025-12-24 16:41:19.715 | INFO     | __main__:<module>:209 - 220 samples generated
+2025-12-24 16:41:20.127 | INFO     | __main__:<module>:209 - 230 samples generated
+2025-12-24 16:41:20.701 | INFO     | __main__:<module>:209 - 240 samples generated
+2025-12-24 16:41:21.124 | INFO     | __main__:<module>:209 - 250 samples generated
+2025-12-24 16:41:21.706 | INFO     | __main__:<module>:209 - 260 samples generated
+2025-12-24 16:41:22.114 | INFO     | __main__:<module>:209 - 270 samples generated
+2025-12-24 16:41:22.570 | INFO     | __main__:<module>:209 - 280 samples generated
+2025-12-24 16:41:22.999 | INFO     | __main__:<module>:209 - 290 samples generated
+2025-12-24 16:41:23.416 | INFO     | __main__:<module>:209 - 300 samples generated
+2025-12-24 16:41:24.045 | INFO     | __main__:<module>:209 - 310 samples generated
+2025-12-24 16:41:24.934 | INFO     | __main__:<module>:209 - 320 samples generated
+2025-12-24 16:41:25.492 | INFO     | __main__:<module>:209 - 330 samples generated
+2025-12-24 16:41:26.383 | INFO     | __main__:<module>:209 - 340 samples generated
+2025-12-24 16:41:27.575 | INFO     | __main__:<module>:209 - 350 samples generated
+2025-12-24 16:41:28.850 | INFO     | __main__:<module>:209 - 360 samples generated
+2025-12-24 16:41:29.537 | INFO     | __main__:<module>:209 - 370 samples generated
+2025-12-24 16:41:30.288 | INFO     | __main__:<module>:209 - 380 samples generated
+2025-12-24 16:41:31.381 | INFO     | __main__:<module>:209 - 390 samples generated
+2025-12-24 16:41:31.995 | INFO     | __main__:<module>:209 - 400 samples generated
+2025-12-24 16:41:32.446 | INFO     | __main__:<module>:209 - 410 samples generated
+2025-12-24 16:41:33.133 | INFO     | __main__:<module>:209 - 420 samples generated
+2025-12-24 16:41:34.049 | INFO     | __main__:<module>:209 - 430 samples generated
+2025-12-24 16:41:34.687 | INFO     | __main__:<module>:209 - 440 samples generated
+2025-12-24 16:41:35.163 | INFO     | __main__:<module>:209 - 450 samples generated
+2025-12-24 16:41:35.579 | INFO     | __main__:<module>:209 - 460 samples generated
+2025-12-24 16:41:36.197 | INFO     | __main__:<module>:209 - 470 samples generated
+2025-12-24 16:41:37.272 | INFO     | __main__:<module>:209 - 480 samples generated
+2025-12-24 16:41:38.103 | INFO     | __main__:<module>:209 - 490 samples generated
+2025-12-24 16:41:38.985 | INFO     | __main__:<module>:209 - 500 samples generated
+2025-12-24 16:41:39.676 | INFO     | __main__:<module>:209 - 510 samples generated
+2025-12-24 16:41:40.095 | INFO     | __main__:<module>:209 - 520 samples generated
+2025-12-24 16:41:41.363 | INFO     | __main__:<module>:209 - 530 samples generated
+2025-12-24 16:41:41.861 | INFO     | __main__:<module>:209 - 540 samples generated
+2025-12-24 16:41:42.298 | INFO     | __main__:<module>:209 - 550 samples generated
+2025-12-24 16:41:42.764 | INFO     | __main__:<module>:209 - 560 samples generated
+2025-12-24 16:41:43.280 | INFO     | __main__:<module>:209 - 570 samples generated
+2025-12-24 16:41:44.179 | INFO     | __main__:<module>:209 - 580 samples generated
+2025-12-24 16:41:44.597 | INFO     | __main__:<module>:209 - 590 samples generated
+2025-12-24 16:41:45.126 | INFO     | __main__:<module>:209 - 600 samples generated
+2025-12-24 16:41:45.842 | INFO     | __main__:<module>:209 - 610 samples generated
+2025-12-24 16:41:46.432 | INFO     | __main__:<module>:209 - 620 samples generated
+2025-12-24 16:41:46.840 | INFO     | __main__:<module>:209 - 630 samples generated
+2025-12-24 16:41:47.252 | INFO     | __main__:<module>:209 - 640 samples generated
+2025-12-24 16:41:47.758 | INFO     | __main__:<module>:209 - 650 samples generated
+2025-12-24 16:41:48.402 | INFO     | __main__:<module>:209 - 660 samples generated
+2025-12-24 16:41:48.996 | INFO     | __main__:<module>:209 - 670 samples generated
+2025-12-24 16:41:49.429 | INFO     | __main__:<module>:209 - 680 samples generated
+2025-12-24 16:41:49.898 | INFO     | __main__:<module>:209 - 690 samples generated
+2025-12-24 16:41:50.507 | INFO     | __main__:<module>:209 - 700 samples generated
+2025-12-24 16:41:50.952 | INFO     | __main__:<module>:209 - 710 samples generated
+2025-12-24 16:41:51.375 | INFO     | __main__:<module>:209 - 720 samples generated
+2025-12-24 16:41:51.918 | INFO     | __main__:<module>:209 - 730 samples generated
+2025-12-24 16:41:52.891 | INFO     | __main__:<module>:209 - 740 samples generated
+2025-12-24 16:41:53.606 | INFO     | __main__:<module>:209 - 750 samples generated
+2025-12-24 16:41:54.204 | INFO     | __main__:<module>:209 - 760 samples generated
+2025-12-24 16:41:55.299 | INFO     | __main__:<module>:209 - 770 samples generated
+2025-12-24 16:41:56.325 | INFO     | __main__:<module>:209 - 780 samples generated
+2025-12-24 16:41:56.743 | INFO     | __main__:<module>:209 - 790 samples generated
+2025-12-24 16:41:57.177 | INFO     | __main__:<module>:209 - 800 samples generated
+2025-12-24 16:41:57.844 | INFO     | __main__:<module>:209 - 810 samples generated
+2025-12-24 16:41:58.969 | INFO     | __main__:<module>:209 - 820 samples generated
+2025-12-24 16:42:00.013 | INFO     | __main__:<module>:209 - 830 samples generated
+2025-12-24 16:42:00.475 | INFO     | __main__:<module>:209 - 840 samples generated
+2025-12-24 16:42:01.121 | INFO     | __main__:<module>:209 - 850 samples generated
+2025-12-24 16:42:02.107 | INFO     | __main__:<module>:209 - 860 samples generated
+2025-12-24 16:42:03.146 | INFO     | __main__:<module>:209 - 870 samples generated
+2025-12-24 16:42:04.054 | INFO     | __main__:<module>:209 - 880 samples generated
+2025-12-24 16:42:04.631 | INFO     | __main__:<module>:209 - 890 samples generated
+2025-12-24 16:42:05.411 | INFO     | __main__:<module>:209 - 900 samples generated
+2025-12-24 16:42:06.446 | INFO     | __main__:<module>:209 - 910 samples generated
+2025-12-24 16:42:07.119 | INFO     | __main__:<module>:209 - 920 samples generated
+2025-12-24 16:42:08.174 | INFO     | __main__:<module>:209 - 930 samples generated
+2025-12-24 16:42:08.999 | INFO     | __main__:<module>:209 - 940 samples generated
+2025-12-24 16:42:09.436 | INFO     | __main__:<module>:209 - 950 samples generated
+2025-12-24 16:42:09.905 | INFO     | __main__:<module>:209 - 960 samples generated
+2025-12-24 16:42:10.315 | INFO     | __main__:<module>:209 - 970 samples generated
+2025-12-24 16:42:10.725 | INFO     | __main__:<module>:209 - 980 samples generated
+2025-12-24 16:42:11.545 | INFO     | __main__:<module>:209 - 990 samples generated
+2025-12-24 16:42:12.388 | INFO     | __main__:<module>:209 - 1000 samples generated

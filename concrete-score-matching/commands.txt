@@ -1,0 +1,1 @@
+python3 train-1d.py --device cuda:0 --output-dir runs/1d/v1/ --epochs 100

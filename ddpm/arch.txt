@@ -1,0 +1,395 @@
+UNet(
+  (time_embed): Sequential(
+    (0): SinusodialPositionEmbeddings()
+    (1): Linear(in_features=128, out_features=512, bias=True)
+    (2): SiLU()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+  )
+  (init_conv): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (downs): ModuleList(
+    (0-1): 2 x ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 128, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=128, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 128, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Identity()
+      )
+      (1): Attention(
+        (q): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (2): DownSample(
+      (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    )
+    (3): ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 128, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=256, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): Attention(
+        (q): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (4): ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=256, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Identity()
+      )
+      (1): Attention(
+        (q): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (5): DownSample(
+      (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    )
+    (6-7): 2 x ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=256, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Identity()
+      )
+      (1): Attention(
+        (q): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (8): DownSample(
+      (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    )
+    (9): ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Conv2d(256, 512, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): Attention(
+        (q): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (10): ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Identity()
+      )
+      (1): Attention(
+        (q): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+  )
+  (middle): ModuleList(
+    (0): ResNetBlock(
+      (b1): Sequential(
+        (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+        (1): SiLU()
+        (2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (time_embed_proj): Sequential(
+        (0): SiLU()
+        (1): Linear(in_features=512, out_features=512, bias=True)
+      )
+      (b2): Sequential(
+        (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+        (1): SiLU()
+        (2): Dropout(p=0.1, inplace=False)
+        (3): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (match_conv): Identity()
+    )
+    (1): Attention(
+      (q): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (k): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (v): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (o): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    )
+    (2): ResNetBlock(
+      (b1): Sequential(
+        (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+        (1): SiLU()
+        (2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (time_embed_proj): Sequential(
+        (0): SiLU()
+        (1): Linear(in_features=512, out_features=512, bias=True)
+      )
+      (b2): Sequential(
+        (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+        (1): SiLU()
+        (2): Dropout(p=0.1, inplace=False)
+        (3): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (match_conv): Identity()
+    )
+  )
+  (ups): ModuleList(
+    (0-1): 2 x ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 1024, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(1024, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): Attention(
+        (q): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (2): UpSample(
+      (upsample): Upsample(scale_factor=2.0, mode='nearest')
+      (conv): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (3): ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 768, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(768, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=256, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Conv2d(768, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): Attention(
+        (q): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (4): ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(512, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=256, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): Attention(
+        (q): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (5): UpSample(
+      (upsample): Upsample(scale_factor=2.0, mode='nearest')
+      (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (6-7): 2 x ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 512, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(512, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=256, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): Attention(
+        (q): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (8): UpSample(
+      (upsample): Upsample(scale_factor=2.0, mode='nearest')
+      (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (9): ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 384, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(384, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=128, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 128, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Conv2d(384, 128, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): Attention(
+        (q): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+    (10): ModuleList(
+      (0): ResNetBlock(
+        (b1): Sequential(
+          (0): GroupNorm(32, 256, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (time_embed_proj): Sequential(
+          (0): SiLU()
+          (1): Linear(in_features=512, out_features=128, bias=True)
+        )
+        (b2): Sequential(
+          (0): GroupNorm(32, 128, eps=1e-05, affine=True)
+          (1): SiLU()
+          (2): Dropout(p=0.1, inplace=False)
+          (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (match_conv): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): Attention(
+        (q): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (k): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (v): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (o): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+    )
+  )
+  (end): Sequential(
+    (0): GroupNorm(32, 128, eps=1e-05, affine=True)
+    (1): SiLU()
+    (2): Conv2d(128, 3, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+)

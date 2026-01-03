@@ -1,0 +1,11 @@
+In this codebase, I will try to implement walk jump sampling mnist images.
+
+First, I will do it with 1 sample. Then may be if time permits, I will do for m samples.
+
+- Implement exponential moving average.
+
+In case of single sample case
+    - We only need to train for single noise level. So, there is no need for us to give sigma to the model.
+    - rather than training the denoiser, we will train the model to predicted the score that is (-noise)/var.
+
+Have to implement exponential moving average.

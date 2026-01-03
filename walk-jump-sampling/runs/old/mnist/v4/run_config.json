@@ -1,0 +1,27 @@
+{
+    "training_objective": "denoiser",
+    "val_fraction": 0.2,
+    "noise_var": 0.25,
+    "batch_size": 128,
+    "lr": 0.001,
+    "epochs": 70,
+    "do_grad_clip": false,
+    "grad_clip": 1.0,
+    "do_ema": true,
+    "ema_decay": 0.999,
+    "model_dim": 128,
+    "norm_groups": 32,
+    "dropout_prob": 0.1,
+    "langevin_steps": 50000,
+    "langevin_save_every": 500,
+    "seed": 42,
+    "device": "cuda:2",
+    "output_dir": "runs/mnist/v4/",
+    "image_shape": [
+        28,
+        28
+    ],
+    "channels": 1,
+    "flip_probs": 0.0,
+    "model_save_path": "runs/mnist/v4/single-noise-scale.bin"
+}
