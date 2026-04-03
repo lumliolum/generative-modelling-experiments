@@ -13,6 +13,7 @@ from torch.utils.data import DataLoader, Dataset
 
 from models import UNet
 from arguments import get_parser
+from ema import EMAHelper
 from eval_utils import Evaluator
 from utils import (
     set_seed,
@@ -22,6 +23,7 @@ from utils import (
     train_one_step,
     get_normalize_transform,
     show_forward_for_one_image,
+    plot_original_grid,
     sample_batch,
     generate_and_save
 )
@@ -37,7 +39,10 @@ class DiffussionDataset(Dataset):
 
     def __getitem__(self, index):
         pil_img, _ = self.dataset[index]
-        return self.transform(pil_img)
+        if self.transform:
+            return self.transform(pil_img)
+        else:
+            return pil_img
 
 
 if __name__ == "__main__":
@@ -56,7 +61,7 @@ if __name__ == "__main__":
 
     # store the configuration json
     config_json_path = os.path.join(args.output_dir, "run_config.json")
-    logger.info(f"Saving the json at path = {config_json_path}")
+    logger.info(f"Saving the config json at path = {config_json_path}")
     with open(config_json_path, "w") as f:
         json.dump(vars(args), f, indent=4)
 
@@ -67,6 +72,9 @@ if __name__ == "__main__":
     cifar10_train_dataset = torchvision.datasets.CIFAR10(root="../data", train=True, download=True)
     logger.info(f"length of the dataset = {len(cifar10_train_dataset)}")
 
+    # plot the grid of samples from training dataset.
+    plot_original_grid(cifar10_train_dataset, os.path.join(args.output_dir, "original_grid.png"))
+
     # get betas
     logger.info(f"Computing betas, alphas with timesteps = {args.timesteps}")
     betas = get_betas(args.beta_start, args.beta_end, args.timesteps, args.device)
@@ -74,11 +82,15 @@ if __name__ == "__main__":
     alphabars = compute_alphabars(alphas)
 
     # alphabars(t-1)
-    prev_alphabars = torch.cat((torch.tensor([0], device=args.device), alphabars[:-1]))
+    prev_alphabars = torch.cat((torch.tensor([1.0], device=args.device), alphabars[:-1]))
 
     # variance of q(x_{t-1}| x_{t}, x_{0})
     # note that beta is 1 - alpha
-    variance = (1.0 - alphas) * (1.0 - prev_alphabars) / (1.0 - alphabars)
+    logger.info(f"Using variance type = {args.variance_type} for sampling")
+    if args.variance_type == "fixed_small":
+        variance = (1.0 - alphas) * (1.0 - prev_alphabars) / (1.0 - alphabars)
+    elif args.variance_type == "fixed_large":
+        variance = betas
 
     # show forward
     show_forward_for_one_image(cifar10_train_dataset[0][0], alphabars, args.device, args.output_dir)
@@ -108,7 +120,24 @@ if __name__ == "__main__":
     )
     model.to(args.device)
 
+    # calculate the number of trainable parameters for the model in millions
+    # num_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    # num_params = round(num_params / 1e6, 2)
+    # logger.info(f"Number of trainable parameters in the model = {num_params}")
+
+    if args.do_ema:
+        logger.info(f"Initializaing EMA with decay = {args.ema_decay}")
+        ema = EMAHelper(args.ema_decay, model)
+    else:
+        ema = None
+
+    grad_clip = None
+    if args.do_grad_clip:
+        logger.info(f"Enabling gradient clipping with norm = {args.grad_clip}")
+        grad_clip = args.grad_clip
+
     # initialize the optimizer
+    logger.info(f"Initializing the Adam optimizer with learning rate = {args.lr}")
     optimizer = optim.Adam(params=model.parameters(), lr=args.lr)
 
     # initialize the evaluator
@@ -132,11 +161,14 @@ if __name__ == "__main__":
     for ep in range(args.epochs):
         logger.info(f"Epoch = {ep + 1} / {args.epochs}")
 
+        # go to train mode
+        model.train()
+
         t1 = time.time()
         train_mean_loss = 0.0
         train_steps = 0
         for x_batch in train_loader:
-            loss = train_one_step(model, x_batch, args.timesteps, alphabars, optimizer, args.grad_clip, args.device)
+            loss = train_one_step(model, x_batch, args.timesteps, alphabars, optimizer, grad_clip, args.device, ema)
             train_mean_loss += loss
             train_steps += 1
             # print(train_steps, flush=True)
@@ -146,10 +178,18 @@ if __name__ == "__main__":
         training_timetaken = round(t2 - t1, 2)
 
         if (ep + 1) % args.eval_epochs == 0:
+            # apply the ema model, so that we can run the evaluation on
+            # ema weights.
+            if ema is not None:
+                ema.apply()
+
+            # go to eval model
+            model.eval()
+
             logger.info("Running evaluation")
             # here we have to run the evaluation
             # as per the original implementation, each evaluation means we have to calculate
-            # fid score over the whole training set.
+            # fid score over the whole training set (section 4.1 of DDPM paper)
             t1 = time.time()
             fid = evaluator.eval(model)
             t2 = time.time()
@@ -169,18 +209,19 @@ if __name__ == "__main__":
             )
             t2 = time.time()
             logger.info(f"Generation completed in {round(t2 - t1, 2)} seconds")
+
+            # save the model
+            model_save_path = os.path.join(args.output_dir, f"model-epoch-{ep + 1}.bin")
+            logger.info(f"Saving the model at path = {model_save_path}")
+            torch.save(model.state_dict(), model_save_path)
+
+            # restore the model, to continue the training
+            if ema is not None:
+                ema.restore()
         else:
             fid = None
             evaluation_timetaken = np.nan
 
         logger.info(f"Training time taken = {training_timetaken} seconds, Evaluation time taken = {evaluation_timetaken} seconds, loss = {train_mean_loss}, fid = {fid}")
 
-        # # check the gradients of the model
-        # grads = []
-        # with torch.no_grad():
-        #     for p in model.parameters():
-        #         grads.append(torch.linalg.norm(p.grad).item())
-
-        # # check the gradients
-        # grads = np.array(grads)
-        # logger.info(f"min = {np.min(grads)}, median = {np.percentile(grads, 50)}, max = {np.max(grads)}")
+    # have to write a code that will calculate the FID score with respect to test set.

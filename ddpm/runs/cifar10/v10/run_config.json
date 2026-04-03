@@ -1,0 +1,18 @@
+{
+    "timesteps": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "variance_type": "fixed_small",
+    "batch_size": 128,
+    "eval_batch_size": 512,
+    "lr": 8e-05,
+    "epochs": 2000,
+    "eval_epochs": 2000,
+    "do_grad_clip": true,
+    "grad_clip": 1.0,
+    "do_ema": true,
+    "ema_decay": 0.999,
+    "seed": 42,
+    "device": "cuda:3",
+    "output_dir": "runs/cifar10/v10/"
+}

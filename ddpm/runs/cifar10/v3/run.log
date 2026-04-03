@@ -1,0 +1,263 @@
+2026-02-11 02:02:56.111 | INFO     | __main__:<module>:56 - Using seed = 42, device = cuda:7 and output dir = runs/cifar10/v3/
+2026-02-11 02:02:56.111 | INFO     | __main__:<module>:60 - Saving the json at path = runs/cifar10/v3/run_config.json
+2026-02-11 02:02:57.077 | INFO     | __main__:<module>:69 - length of the dataset = 50000
+2026-02-11 02:02:57.078 | INFO     | __main__:<module>:72 - Computing betas, alphas with timesteps = 1000
+2026-02-11 02:02:57.799 | INFO     | __main__:<module>:100 - Initializing the model
+2026-02-11 02:02:58.430 | INFO     | __main__:<module>:113 - Initializaing EMA with decay = 0.999
+2026-02-11 02:03:02.923 | INFO     | __main__:<module>:138 - Running for epochs = 120
+2026-02-11 02:03:02.923 | INFO     | __main__:<module>:140 - Epoch = 1 / 120
+2026-02-11 02:06:19.506 | INFO     | __main__:<module>:192 - Training time taken = 196.58 seconds, Evaluation time taken = nan seconds, loss = 0.84794, fid = None
+2026-02-11 02:06:19.506 | INFO     | __main__:<module>:140 - Epoch = 2 / 120
+2026-02-11 02:09:35.743 | INFO     | __main__:<module>:192 - Training time taken = 196.24 seconds, Evaluation time taken = nan seconds, loss = 0.30728, fid = None
+2026-02-11 02:09:35.743 | INFO     | __main__:<module>:140 - Epoch = 3 / 120
+2026-02-11 02:12:52.142 | INFO     | __main__:<module>:192 - Training time taken = 196.4 seconds, Evaluation time taken = nan seconds, loss = 0.0762, fid = None
+2026-02-11 02:12:52.142 | INFO     | __main__:<module>:140 - Epoch = 4 / 120
+2026-02-11 02:16:09.564 | INFO     | __main__:<module>:192 - Training time taken = 197.42 seconds, Evaluation time taken = nan seconds, loss = 0.06016, fid = None
+2026-02-11 02:16:09.564 | INFO     | __main__:<module>:140 - Epoch = 5 / 120
+2026-02-11 02:19:26.166 | INFO     | __main__:<module>:192 - Training time taken = 196.6 seconds, Evaluation time taken = nan seconds, loss = 0.05573, fid = None
+2026-02-11 02:19:26.167 | INFO     | __main__:<module>:140 - Epoch = 6 / 120
+2026-02-11 02:22:42.444 | INFO     | __main__:<module>:192 - Training time taken = 196.28 seconds, Evaluation time taken = nan seconds, loss = 0.05214, fid = None
+2026-02-11 02:22:42.444 | INFO     | __main__:<module>:140 - Epoch = 7 / 120
+2026-02-11 02:25:58.793 | INFO     | __main__:<module>:192 - Training time taken = 196.35 seconds, Evaluation time taken = nan seconds, loss = 0.05096, fid = None
+2026-02-11 02:25:58.793 | INFO     | __main__:<module>:140 - Epoch = 8 / 120
+2026-02-11 02:29:15.055 | INFO     | __main__:<module>:192 - Training time taken = 196.26 seconds, Evaluation time taken = nan seconds, loss = 0.04848, fid = None
+2026-02-11 02:29:15.056 | INFO     | __main__:<module>:140 - Epoch = 9 / 120
+2026-02-11 02:32:31.235 | INFO     | __main__:<module>:192 - Training time taken = 196.18 seconds, Evaluation time taken = nan seconds, loss = 0.04695, fid = None
+2026-02-11 02:32:31.235 | INFO     | __main__:<module>:140 - Epoch = 10 / 120
+2026-02-11 02:35:47.405 | INFO     | __main__:<module>:192 - Training time taken = 196.17 seconds, Evaluation time taken = nan seconds, loss = 0.04675, fid = None
+2026-02-11 02:35:47.405 | INFO     | __main__:<module>:140 - Epoch = 11 / 120
+2026-02-11 02:39:03.642 | INFO     | __main__:<module>:192 - Training time taken = 196.24 seconds, Evaluation time taken = nan seconds, loss = 0.04485, fid = None
+2026-02-11 02:39:03.642 | INFO     | __main__:<module>:140 - Epoch = 12 / 120
+2026-02-11 02:42:19.879 | INFO     | __main__:<module>:192 - Training time taken = 196.24 seconds, Evaluation time taken = nan seconds, loss = 0.04418, fid = None
+2026-02-11 02:42:19.879 | INFO     | __main__:<module>:140 - Epoch = 13 / 120
+2026-02-11 02:45:36.170 | INFO     | __main__:<module>:192 - Training time taken = 196.29 seconds, Evaluation time taken = nan seconds, loss = 0.04376, fid = None
+2026-02-11 02:45:36.170 | INFO     | __main__:<module>:140 - Epoch = 14 / 120
+2026-02-11 02:48:52.502 | INFO     | __main__:<module>:192 - Training time taken = 196.33 seconds, Evaluation time taken = nan seconds, loss = 0.04243, fid = None
+2026-02-11 02:48:52.502 | INFO     | __main__:<module>:140 - Epoch = 15 / 120
+2026-02-11 02:52:08.987 | INFO     | __main__:<module>:192 - Training time taken = 196.48 seconds, Evaluation time taken = nan seconds, loss = 0.04185, fid = None
+2026-02-11 02:52:08.987 | INFO     | __main__:<module>:140 - Epoch = 16 / 120
+2026-02-11 02:55:25.405 | INFO     | __main__:<module>:192 - Training time taken = 196.42 seconds, Evaluation time taken = nan seconds, loss = 0.04147, fid = None
+2026-02-11 02:55:25.406 | INFO     | __main__:<module>:140 - Epoch = 17 / 120
+2026-02-11 02:58:41.784 | INFO     | __main__:<module>:192 - Training time taken = 196.38 seconds, Evaluation time taken = nan seconds, loss = 0.04124, fid = None
+2026-02-11 02:58:41.784 | INFO     | __main__:<module>:140 - Epoch = 18 / 120
+2026-02-11 03:01:58.291 | INFO     | __main__:<module>:192 - Training time taken = 196.51 seconds, Evaluation time taken = nan seconds, loss = 0.04096, fid = None
+2026-02-11 03:01:58.291 | INFO     | __main__:<module>:140 - Epoch = 19 / 120
+2026-02-11 03:05:14.733 | INFO     | __main__:<module>:192 - Training time taken = 196.44 seconds, Evaluation time taken = nan seconds, loss = 0.04039, fid = None
+2026-02-11 03:05:14.733 | INFO     | __main__:<module>:140 - Epoch = 20 / 120
+2026-02-11 03:08:31.175 | INFO     | __main__:<module>:192 - Training time taken = 196.44 seconds, Evaluation time taken = nan seconds, loss = 0.03968, fid = None
+2026-02-11 03:08:31.176 | INFO     | __main__:<module>:140 - Epoch = 21 / 120
+2026-02-11 03:11:47.621 | INFO     | __main__:<module>:192 - Training time taken = 196.44 seconds, Evaluation time taken = nan seconds, loss = 0.03926, fid = None
+2026-02-11 03:11:47.621 | INFO     | __main__:<module>:140 - Epoch = 22 / 120
+2026-02-11 03:15:04.195 | INFO     | __main__:<module>:192 - Training time taken = 196.57 seconds, Evaluation time taken = nan seconds, loss = 0.03894, fid = None
+2026-02-11 03:15:04.196 | INFO     | __main__:<module>:140 - Epoch = 23 / 120
+2026-02-11 03:18:22.189 | INFO     | __main__:<module>:192 - Training time taken = 197.99 seconds, Evaluation time taken = nan seconds, loss = 0.03825, fid = None
+2026-02-11 03:18:22.189 | INFO     | __main__:<module>:140 - Epoch = 24 / 120
+2026-02-11 03:21:38.079 | INFO     | __main__:<module>:192 - Training time taken = 195.89 seconds, Evaluation time taken = nan seconds, loss = 0.03868, fid = None
+2026-02-11 03:21:38.079 | INFO     | __main__:<module>:140 - Epoch = 25 / 120
+2026-02-11 03:24:54.118 | INFO     | __main__:<module>:192 - Training time taken = 196.04 seconds, Evaluation time taken = nan seconds, loss = 0.03796, fid = None
+2026-02-11 03:24:54.118 | INFO     | __main__:<module>:140 - Epoch = 26 / 120
+2026-02-11 03:28:10.196 | INFO     | __main__:<module>:192 - Training time taken = 196.08 seconds, Evaluation time taken = nan seconds, loss = 0.03793, fid = None
+2026-02-11 03:28:10.196 | INFO     | __main__:<module>:140 - Epoch = 27 / 120
+2026-02-11 03:31:26.172 | INFO     | __main__:<module>:192 - Training time taken = 195.98 seconds, Evaluation time taken = nan seconds, loss = 0.03768, fid = None
+2026-02-11 03:31:26.172 | INFO     | __main__:<module>:140 - Epoch = 28 / 120
+2026-02-11 03:34:42.461 | INFO     | __main__:<module>:192 - Training time taken = 196.29 seconds, Evaluation time taken = nan seconds, loss = 0.0378, fid = None
+2026-02-11 03:34:42.462 | INFO     | __main__:<module>:140 - Epoch = 29 / 120
+2026-02-11 03:37:59.053 | INFO     | __main__:<module>:192 - Training time taken = 196.59 seconds, Evaluation time taken = nan seconds, loss = 0.03712, fid = None
+2026-02-11 03:37:59.054 | INFO     | __main__:<module>:140 - Epoch = 30 / 120
+2026-02-11 03:41:15.568 | INFO     | __main__:<module>:192 - Training time taken = 196.51 seconds, Evaluation time taken = nan seconds, loss = 0.03677, fid = None
+2026-02-11 03:41:15.568 | INFO     | __main__:<module>:140 - Epoch = 31 / 120
+2026-02-11 03:44:35.270 | INFO     | __main__:<module>:192 - Training time taken = 199.7 seconds, Evaluation time taken = nan seconds, loss = 0.03718, fid = None
+2026-02-11 03:44:35.270 | INFO     | __main__:<module>:140 - Epoch = 32 / 120
+2026-02-11 03:47:54.919 | INFO     | __main__:<module>:192 - Training time taken = 199.65 seconds, Evaluation time taken = nan seconds, loss = 0.03619, fid = None
+2026-02-11 03:47:54.920 | INFO     | __main__:<module>:140 - Epoch = 33 / 120
+2026-02-11 03:51:13.563 | INFO     | __main__:<module>:192 - Training time taken = 198.64 seconds, Evaluation time taken = nan seconds, loss = 0.03696, fid = None
+2026-02-11 03:51:13.563 | INFO     | __main__:<module>:140 - Epoch = 34 / 120
+2026-02-11 03:54:29.941 | INFO     | __main__:<module>:192 - Training time taken = 196.38 seconds, Evaluation time taken = nan seconds, loss = 0.03691, fid = None
+2026-02-11 03:54:29.942 | INFO     | __main__:<module>:140 - Epoch = 35 / 120
+2026-02-11 03:57:49.605 | INFO     | __main__:<module>:192 - Training time taken = 199.66 seconds, Evaluation time taken = nan seconds, loss = 0.03668, fid = None
+2026-02-11 03:57:49.605 | INFO     | __main__:<module>:140 - Epoch = 36 / 120
+2026-02-11 04:01:05.330 | INFO     | __main__:<module>:192 - Training time taken = 195.72 seconds, Evaluation time taken = nan seconds, loss = 0.03611, fid = None
+2026-02-11 04:01:05.330 | INFO     | __main__:<module>:140 - Epoch = 37 / 120
+2026-02-11 04:04:23.544 | INFO     | __main__:<module>:192 - Training time taken = 198.21 seconds, Evaluation time taken = nan seconds, loss = 0.03558, fid = None
+2026-02-11 04:04:23.544 | INFO     | __main__:<module>:140 - Epoch = 38 / 120
+2026-02-11 04:07:43.070 | INFO     | __main__:<module>:192 - Training time taken = 199.53 seconds, Evaluation time taken = nan seconds, loss = 0.03529, fid = None
+2026-02-11 04:07:43.070 | INFO     | __main__:<module>:140 - Epoch = 39 / 120
+2026-02-11 04:10:58.929 | INFO     | __main__:<module>:192 - Training time taken = 195.86 seconds, Evaluation time taken = nan seconds, loss = 0.03547, fid = None
+2026-02-11 04:10:58.930 | INFO     | __main__:<module>:140 - Epoch = 40 / 120
+2026-02-11 04:14:14.780 | INFO     | __main__:<module>:192 - Training time taken = 195.85 seconds, Evaluation time taken = nan seconds, loss = 0.03563, fid = None
+2026-02-11 04:14:14.780 | INFO     | __main__:<module>:140 - Epoch = 41 / 120
+2026-02-11 04:17:30.971 | INFO     | __main__:<module>:192 - Training time taken = 196.19 seconds, Evaluation time taken = nan seconds, loss = 0.03555, fid = None
+2026-02-11 04:17:30.971 | INFO     | __main__:<module>:140 - Epoch = 42 / 120
+2026-02-11 04:20:47.690 | INFO     | __main__:<module>:192 - Training time taken = 196.72 seconds, Evaluation time taken = nan seconds, loss = 0.03533, fid = None
+2026-02-11 04:20:47.690 | INFO     | __main__:<module>:140 - Epoch = 43 / 120
+2026-02-11 04:24:03.393 | INFO     | __main__:<module>:192 - Training time taken = 195.7 seconds, Evaluation time taken = nan seconds, loss = 0.03548, fid = None
+2026-02-11 04:24:03.393 | INFO     | __main__:<module>:140 - Epoch = 44 / 120
+2026-02-11 04:27:19.157 | INFO     | __main__:<module>:192 - Training time taken = 195.76 seconds, Evaluation time taken = nan seconds, loss = 0.03517, fid = None
+2026-02-11 04:27:19.157 | INFO     | __main__:<module>:140 - Epoch = 45 / 120
+2026-02-11 04:30:34.778 | INFO     | __main__:<module>:192 - Training time taken = 195.62 seconds, Evaluation time taken = nan seconds, loss = 0.03528, fid = None
+2026-02-11 04:30:34.778 | INFO     | __main__:<module>:140 - Epoch = 46 / 120
+2026-02-11 04:33:50.517 | INFO     | __main__:<module>:192 - Training time taken = 195.74 seconds, Evaluation time taken = nan seconds, loss = 0.0352, fid = None
+2026-02-11 04:33:50.518 | INFO     | __main__:<module>:140 - Epoch = 47 / 120
+2026-02-11 04:37:06.346 | INFO     | __main__:<module>:192 - Training time taken = 195.83 seconds, Evaluation time taken = nan seconds, loss = 0.03496, fid = None
+2026-02-11 04:37:06.347 | INFO     | __main__:<module>:140 - Epoch = 48 / 120
+2026-02-11 04:40:22.096 | INFO     | __main__:<module>:192 - Training time taken = 195.75 seconds, Evaluation time taken = nan seconds, loss = 0.03488, fid = None
+2026-02-11 04:40:22.096 | INFO     | __main__:<module>:140 - Epoch = 49 / 120
+2026-02-11 04:43:37.950 | INFO     | __main__:<module>:192 - Training time taken = 195.85 seconds, Evaluation time taken = nan seconds, loss = 0.03456, fid = None
+2026-02-11 04:43:37.950 | INFO     | __main__:<module>:140 - Epoch = 50 / 120
+2026-02-11 04:46:53.816 | INFO     | __main__:<module>:192 - Training time taken = 195.87 seconds, Evaluation time taken = nan seconds, loss = 0.03468, fid = None
+2026-02-11 04:46:53.816 | INFO     | __main__:<module>:140 - Epoch = 51 / 120
+2026-02-11 04:50:09.750 | INFO     | __main__:<module>:192 - Training time taken = 195.93 seconds, Evaluation time taken = nan seconds, loss = 0.03452, fid = None
+2026-02-11 04:50:09.751 | INFO     | __main__:<module>:140 - Epoch = 52 / 120
+2026-02-11 04:53:26.326 | INFO     | __main__:<module>:192 - Training time taken = 196.58 seconds, Evaluation time taken = nan seconds, loss = 0.03421, fid = None
+2026-02-11 04:53:26.327 | INFO     | __main__:<module>:140 - Epoch = 53 / 120
+2026-02-11 04:56:42.971 | INFO     | __main__:<module>:192 - Training time taken = 196.64 seconds, Evaluation time taken = nan seconds, loss = 0.03448, fid = None
+2026-02-11 04:56:42.971 | INFO     | __main__:<module>:140 - Epoch = 54 / 120
+2026-02-11 04:59:59.587 | INFO     | __main__:<module>:192 - Training time taken = 196.62 seconds, Evaluation time taken = nan seconds, loss = 0.0347, fid = None
+2026-02-11 04:59:59.588 | INFO     | __main__:<module>:140 - Epoch = 55 / 120
+2026-02-11 05:03:16.207 | INFO     | __main__:<module>:192 - Training time taken = 196.62 seconds, Evaluation time taken = nan seconds, loss = 0.0345, fid = None
+2026-02-11 05:03:16.208 | INFO     | __main__:<module>:140 - Epoch = 56 / 120
+2026-02-11 05:06:32.754 | INFO     | __main__:<module>:192 - Training time taken = 196.55 seconds, Evaluation time taken = nan seconds, loss = 0.03414, fid = None
+2026-02-11 05:06:32.755 | INFO     | __main__:<module>:140 - Epoch = 57 / 120
+2026-02-11 05:09:49.329 | INFO     | __main__:<module>:192 - Training time taken = 196.57 seconds, Evaluation time taken = nan seconds, loss = 0.03416, fid = None
+2026-02-11 05:09:49.329 | INFO     | __main__:<module>:140 - Epoch = 58 / 120
+2026-02-11 05:13:05.930 | INFO     | __main__:<module>:192 - Training time taken = 196.6 seconds, Evaluation time taken = nan seconds, loss = 0.03328, fid = None
+2026-02-11 05:13:05.931 | INFO     | __main__:<module>:140 - Epoch = 59 / 120
+2026-02-11 05:16:21.983 | INFO     | __main__:<module>:192 - Training time taken = 196.05 seconds, Evaluation time taken = nan seconds, loss = 0.03376, fid = None
+2026-02-11 05:16:21.984 | INFO     | __main__:<module>:140 - Epoch = 60 / 120
+2026-02-11 05:19:39.103 | INFO     | __main__:<module>:161 - Running evaluation
+2026-02-11 05:19:39.103 | INFO     | eval_utils:eval:154 - Computing activations on real dataset
+2026-02-11 05:21:10.663 | INFO     | eval_utils:eval:157 - real activations shape = (50000, 2048). Computing statistics on real dataset
+2026-02-11 05:21:11.807 | INFO     | eval_utils:eval:161 - Generating samples and computing activations
+2026-02-11 23:02:06.966 | INFO     | eval_utils:eval:163 - fake activations shape = (50176, 2048). Computing statistics on generated sample activations
+2026-02-11 23:02:09.878 | INFO     | eval_utils:eval:166 - real activation mean = (2048,), cov = (2048, 2048)
+2026-02-11 23:02:09.879 | INFO     | eval_utils:eval:167 - fake activation mean = (2048,), cov = (2048, 2048)
+2026-02-11 23:03:50.620 | INFO     | __main__:<module>:172 - Generating 100 samples
+2026-02-11 23:06:03.620 | INFO     | __main__:<module>:183 - Generation completed in 133.0 seconds
+2026-02-11 23:06:03.622 | INFO     | __main__:<module>:192 - Training time taken = 197.11 seconds, Evaluation time taken = 63851.52 seconds, loss = 0.03376, fid = 6.48806142591269
+2026-02-11 23:06:03.623 | INFO     | __main__:<module>:140 - Epoch = 61 / 120
+2026-02-11 23:09:26.371 | INFO     | __main__:<module>:192 - Training time taken = 202.75 seconds, Evaluation time taken = nan seconds, loss = 0.03324, fid = None
+2026-02-11 23:09:26.372 | INFO     | __main__:<module>:140 - Epoch = 62 / 120
+2026-02-11 23:12:47.474 | INFO     | __main__:<module>:192 - Training time taken = 201.1 seconds, Evaluation time taken = nan seconds, loss = 0.03395, fid = None
+2026-02-11 23:12:47.475 | INFO     | __main__:<module>:140 - Epoch = 63 / 120
+2026-02-11 23:16:08.733 | INFO     | __main__:<module>:192 - Training time taken = 201.26 seconds, Evaluation time taken = nan seconds, loss = 0.03408, fid = None
+2026-02-11 23:16:08.733 | INFO     | __main__:<module>:140 - Epoch = 64 / 120
+2026-02-11 23:19:30.027 | INFO     | __main__:<module>:192 - Training time taken = 201.29 seconds, Evaluation time taken = nan seconds, loss = 0.0331, fid = None
+2026-02-11 23:19:30.027 | INFO     | __main__:<module>:140 - Epoch = 65 / 120
+2026-02-11 23:22:51.093 | INFO     | __main__:<module>:192 - Training time taken = 201.07 seconds, Evaluation time taken = nan seconds, loss = 0.03375, fid = None
+2026-02-11 23:22:51.093 | INFO     | __main__:<module>:140 - Epoch = 66 / 120
+2026-02-11 23:26:12.508 | INFO     | __main__:<module>:192 - Training time taken = 201.41 seconds, Evaluation time taken = nan seconds, loss = 0.03353, fid = None
+2026-02-11 23:26:12.509 | INFO     | __main__:<module>:140 - Epoch = 67 / 120
+2026-02-11 23:29:34.186 | INFO     | __main__:<module>:192 - Training time taken = 201.68 seconds, Evaluation time taken = nan seconds, loss = 0.03414, fid = None
+2026-02-11 23:29:34.186 | INFO     | __main__:<module>:140 - Epoch = 68 / 120
+2026-02-11 23:32:56.186 | INFO     | __main__:<module>:192 - Training time taken = 202.0 seconds, Evaluation time taken = nan seconds, loss = 0.03408, fid = None
+2026-02-11 23:32:56.187 | INFO     | __main__:<module>:140 - Epoch = 69 / 120
+2026-02-11 23:36:18.522 | INFO     | __main__:<module>:192 - Training time taken = 202.34 seconds, Evaluation time taken = nan seconds, loss = 0.03376, fid = None
+2026-02-11 23:36:18.523 | INFO     | __main__:<module>:140 - Epoch = 70 / 120
+2026-02-11 23:39:39.694 | INFO     | __main__:<module>:192 - Training time taken = 201.17 seconds, Evaluation time taken = nan seconds, loss = 0.03367, fid = None
+2026-02-11 23:39:39.695 | INFO     | __main__:<module>:140 - Epoch = 71 / 120
+2026-02-11 23:43:00.638 | INFO     | __main__:<module>:192 - Training time taken = 200.94 seconds, Evaluation time taken = nan seconds, loss = 0.03353, fid = None
+2026-02-11 23:43:00.638 | INFO     | __main__:<module>:140 - Epoch = 72 / 120
+2026-02-11 23:46:20.768 | INFO     | __main__:<module>:192 - Training time taken = 200.13 seconds, Evaluation time taken = nan seconds, loss = 0.03381, fid = None
+2026-02-11 23:46:20.768 | INFO     | __main__:<module>:140 - Epoch = 73 / 120
+2026-02-11 23:49:40.852 | INFO     | __main__:<module>:192 - Training time taken = 200.08 seconds, Evaluation time taken = nan seconds, loss = 0.03353, fid = None
+2026-02-11 23:49:40.852 | INFO     | __main__:<module>:140 - Epoch = 74 / 120
+2026-02-11 23:53:00.905 | INFO     | __main__:<module>:192 - Training time taken = 200.05 seconds, Evaluation time taken = nan seconds, loss = 0.03353, fid = None
+2026-02-11 23:53:00.905 | INFO     | __main__:<module>:140 - Epoch = 75 / 120
+2026-02-11 23:56:20.892 | INFO     | __main__:<module>:192 - Training time taken = 199.99 seconds, Evaluation time taken = nan seconds, loss = 0.03359, fid = None
+2026-02-11 23:56:20.893 | INFO     | __main__:<module>:140 - Epoch = 76 / 120
+2026-02-11 23:59:41.042 | INFO     | __main__:<module>:192 - Training time taken = 200.15 seconds, Evaluation time taken = nan seconds, loss = 0.03324, fid = None
+2026-02-11 23:59:41.043 | INFO     | __main__:<module>:140 - Epoch = 77 / 120
+2026-02-12 00:03:01.128 | INFO     | __main__:<module>:192 - Training time taken = 200.09 seconds, Evaluation time taken = nan seconds, loss = 0.03328, fid = None
+2026-02-12 00:03:01.129 | INFO     | __main__:<module>:140 - Epoch = 78 / 120
+2026-02-12 00:06:21.101 | INFO     | __main__:<module>:192 - Training time taken = 199.97 seconds, Evaluation time taken = nan seconds, loss = 0.03378, fid = None
+2026-02-12 00:06:21.102 | INFO     | __main__:<module>:140 - Epoch = 79 / 120
+2026-02-12 00:09:41.021 | INFO     | __main__:<module>:192 - Training time taken = 199.92 seconds, Evaluation time taken = nan seconds, loss = 0.03356, fid = None
+2026-02-12 00:09:41.022 | INFO     | __main__:<module>:140 - Epoch = 80 / 120
+2026-02-12 00:13:00.953 | INFO     | __main__:<module>:192 - Training time taken = 199.93 seconds, Evaluation time taken = nan seconds, loss = 0.03339, fid = None
+2026-02-12 00:13:00.953 | INFO     | __main__:<module>:140 - Epoch = 81 / 120
+2026-02-12 00:16:20.626 | INFO     | __main__:<module>:192 - Training time taken = 199.67 seconds, Evaluation time taken = nan seconds, loss = 0.03324, fid = None
+2026-02-12 00:16:20.627 | INFO     | __main__:<module>:140 - Epoch = 82 / 120
+2026-02-12 00:19:40.808 | INFO     | __main__:<module>:192 - Training time taken = 200.18 seconds, Evaluation time taken = nan seconds, loss = 0.03272, fid = None
+2026-02-12 00:19:40.809 | INFO     | __main__:<module>:140 - Epoch = 83 / 120
+2026-02-12 00:23:00.729 | INFO     | __main__:<module>:192 - Training time taken = 199.92 seconds, Evaluation time taken = nan seconds, loss = 0.03345, fid = None
+2026-02-12 00:23:00.729 | INFO     | __main__:<module>:140 - Epoch = 84 / 120
+2026-02-12 00:26:20.706 | INFO     | __main__:<module>:192 - Training time taken = 199.98 seconds, Evaluation time taken = nan seconds, loss = 0.03308, fid = None
+2026-02-12 00:26:20.706 | INFO     | __main__:<module>:140 - Epoch = 85 / 120
+2026-02-12 00:29:40.557 | INFO     | __main__:<module>:192 - Training time taken = 199.85 seconds, Evaluation time taken = nan seconds, loss = 0.03293, fid = None
+2026-02-12 00:29:40.558 | INFO     | __main__:<module>:140 - Epoch = 86 / 120
+2026-02-12 00:33:00.496 | INFO     | __main__:<module>:192 - Training time taken = 199.94 seconds, Evaluation time taken = nan seconds, loss = 0.03407, fid = None
+2026-02-12 00:33:00.497 | INFO     | __main__:<module>:140 - Epoch = 87 / 120
+2026-02-12 00:36:20.347 | INFO     | __main__:<module>:192 - Training time taken = 199.85 seconds, Evaluation time taken = nan seconds, loss = 0.03275, fid = None
+2026-02-12 00:36:20.348 | INFO     | __main__:<module>:140 - Epoch = 88 / 120
+2026-02-12 00:39:40.555 | INFO     | __main__:<module>:192 - Training time taken = 200.21 seconds, Evaluation time taken = nan seconds, loss = 0.03347, fid = None
+2026-02-12 00:39:40.555 | INFO     | __main__:<module>:140 - Epoch = 89 / 120
+2026-02-12 00:43:01.273 | INFO     | __main__:<module>:192 - Training time taken = 200.72 seconds, Evaluation time taken = nan seconds, loss = 0.03283, fid = None
+2026-02-12 00:43:01.274 | INFO     | __main__:<module>:140 - Epoch = 90 / 120
+2026-02-12 00:46:21.067 | INFO     | __main__:<module>:192 - Training time taken = 199.79 seconds, Evaluation time taken = nan seconds, loss = 0.03278, fid = None
+2026-02-12 00:46:21.067 | INFO     | __main__:<module>:140 - Epoch = 91 / 120
+2026-02-12 00:49:41.132 | INFO     | __main__:<module>:192 - Training time taken = 200.06 seconds, Evaluation time taken = nan seconds, loss = 0.03308, fid = None
+2026-02-12 00:49:41.132 | INFO     | __main__:<module>:140 - Epoch = 92 / 120
+2026-02-12 00:53:00.909 | INFO     | __main__:<module>:192 - Training time taken = 199.78 seconds, Evaluation time taken = nan seconds, loss = 0.0324, fid = None
+2026-02-12 00:53:00.909 | INFO     | __main__:<module>:140 - Epoch = 93 / 120
+2026-02-12 00:56:20.860 | INFO     | __main__:<module>:192 - Training time taken = 199.95 seconds, Evaluation time taken = nan seconds, loss = 0.03293, fid = None
+2026-02-12 00:56:20.861 | INFO     | __main__:<module>:140 - Epoch = 94 / 120
+2026-02-12 00:59:40.828 | INFO     | __main__:<module>:192 - Training time taken = 199.97 seconds, Evaluation time taken = nan seconds, loss = 0.03265, fid = None
+2026-02-12 00:59:40.828 | INFO     | __main__:<module>:140 - Epoch = 95 / 120
+2026-02-12 01:03:00.892 | INFO     | __main__:<module>:192 - Training time taken = 200.06 seconds, Evaluation time taken = nan seconds, loss = 0.03299, fid = None
+2026-02-12 01:03:00.892 | INFO     | __main__:<module>:140 - Epoch = 96 / 120
+2026-02-12 01:06:20.738 | INFO     | __main__:<module>:192 - Training time taken = 199.85 seconds, Evaluation time taken = nan seconds, loss = 0.03278, fid = None
+2026-02-12 01:06:20.738 | INFO     | __main__:<module>:140 - Epoch = 97 / 120
+2026-02-12 01:09:40.736 | INFO     | __main__:<module>:192 - Training time taken = 200.0 seconds, Evaluation time taken = nan seconds, loss = 0.03271, fid = None
+2026-02-12 01:09:40.736 | INFO     | __main__:<module>:140 - Epoch = 98 / 120
+2026-02-12 01:13:00.569 | INFO     | __main__:<module>:192 - Training time taken = 199.83 seconds, Evaluation time taken = nan seconds, loss = 0.03252, fid = None
+2026-02-12 01:13:00.569 | INFO     | __main__:<module>:140 - Epoch = 99 / 120
+2026-02-12 01:16:20.270 | INFO     | __main__:<module>:192 - Training time taken = 199.7 seconds, Evaluation time taken = nan seconds, loss = 0.03226, fid = None
+2026-02-12 01:16:20.270 | INFO     | __main__:<module>:140 - Epoch = 100 / 120
+2026-02-12 01:19:40.347 | INFO     | __main__:<module>:192 - Training time taken = 200.08 seconds, Evaluation time taken = nan seconds, loss = 0.03299, fid = None
+2026-02-12 01:19:40.348 | INFO     | __main__:<module>:140 - Epoch = 101 / 120
+2026-02-12 01:23:00.074 | INFO     | __main__:<module>:192 - Training time taken = 199.73 seconds, Evaluation time taken = nan seconds, loss = 0.0321, fid = None
+2026-02-12 01:23:00.074 | INFO     | __main__:<module>:140 - Epoch = 102 / 120
+2026-02-12 01:26:19.882 | INFO     | __main__:<module>:192 - Training time taken = 199.81 seconds, Evaluation time taken = nan seconds, loss = 0.03229, fid = None
+2026-02-12 01:26:19.882 | INFO     | __main__:<module>:140 - Epoch = 103 / 120
+2026-02-12 01:29:39.732 | INFO     | __main__:<module>:192 - Training time taken = 199.85 seconds, Evaluation time taken = nan seconds, loss = 0.0327, fid = None
+2026-02-12 01:29:39.733 | INFO     | __main__:<module>:140 - Epoch = 104 / 120
+2026-02-12 01:32:59.530 | INFO     | __main__:<module>:192 - Training time taken = 199.8 seconds, Evaluation time taken = nan seconds, loss = 0.0324, fid = None
+2026-02-12 01:32:59.530 | INFO     | __main__:<module>:140 - Epoch = 105 / 120
+2026-02-12 01:36:19.514 | INFO     | __main__:<module>:192 - Training time taken = 199.98 seconds, Evaluation time taken = nan seconds, loss = 0.03243, fid = None
+2026-02-12 01:36:19.515 | INFO     | __main__:<module>:140 - Epoch = 106 / 120
+2026-02-12 01:39:39.455 | INFO     | __main__:<module>:192 - Training time taken = 199.94 seconds, Evaluation time taken = nan seconds, loss = 0.03251, fid = None
+2026-02-12 01:39:39.456 | INFO     | __main__:<module>:140 - Epoch = 107 / 120
+2026-02-12 01:42:59.771 | INFO     | __main__:<module>:192 - Training time taken = 200.31 seconds, Evaluation time taken = nan seconds, loss = 0.03188, fid = None
+2026-02-12 01:42:59.771 | INFO     | __main__:<module>:140 - Epoch = 108 / 120
+2026-02-12 01:46:19.795 | INFO     | __main__:<module>:192 - Training time taken = 200.02 seconds, Evaluation time taken = nan seconds, loss = 0.03323, fid = None
+2026-02-12 01:46:19.796 | INFO     | __main__:<module>:140 - Epoch = 109 / 120
+2026-02-12 01:49:39.894 | INFO     | __main__:<module>:192 - Training time taken = 200.1 seconds, Evaluation time taken = nan seconds, loss = 0.03207, fid = None
+2026-02-12 01:49:39.894 | INFO     | __main__:<module>:140 - Epoch = 110 / 120
+2026-02-12 01:52:59.911 | INFO     | __main__:<module>:192 - Training time taken = 200.02 seconds, Evaluation time taken = nan seconds, loss = 0.03274, fid = None
+2026-02-12 01:52:59.911 | INFO     | __main__:<module>:140 - Epoch = 111 / 120
+2026-02-12 01:56:19.775 | INFO     | __main__:<module>:192 - Training time taken = 199.86 seconds, Evaluation time taken = nan seconds, loss = 0.03242, fid = None
+2026-02-12 01:56:19.776 | INFO     | __main__:<module>:140 - Epoch = 112 / 120
+2026-02-12 01:59:39.876 | INFO     | __main__:<module>:192 - Training time taken = 200.1 seconds, Evaluation time taken = nan seconds, loss = 0.03224, fid = None
+2026-02-12 01:59:39.876 | INFO     | __main__:<module>:140 - Epoch = 113 / 120
+2026-02-12 02:02:59.827 | INFO     | __main__:<module>:192 - Training time taken = 199.95 seconds, Evaluation time taken = nan seconds, loss = 0.03248, fid = None
+2026-02-12 02:02:59.827 | INFO     | __main__:<module>:140 - Epoch = 114 / 120
+2026-02-12 02:06:19.797 | INFO     | __main__:<module>:192 - Training time taken = 199.97 seconds, Evaluation time taken = nan seconds, loss = 0.032, fid = None
+2026-02-12 02:06:19.797 | INFO     | __main__:<module>:140 - Epoch = 115 / 120
+2026-02-12 02:09:39.885 | INFO     | __main__:<module>:192 - Training time taken = 200.09 seconds, Evaluation time taken = nan seconds, loss = 0.0328, fid = None
+2026-02-12 02:09:39.886 | INFO     | __main__:<module>:140 - Epoch = 116 / 120
+2026-02-12 02:12:59.991 | INFO     | __main__:<module>:192 - Training time taken = 200.1 seconds, Evaluation time taken = nan seconds, loss = 0.03231, fid = None
+2026-02-12 02:12:59.991 | INFO     | __main__:<module>:140 - Epoch = 117 / 120
+2026-02-12 02:16:20.109 | INFO     | __main__:<module>:192 - Training time taken = 200.12 seconds, Evaluation time taken = nan seconds, loss = 0.03234, fid = None
+2026-02-12 02:16:20.109 | INFO     | __main__:<module>:140 - Epoch = 118 / 120
+2026-02-12 02:19:40.375 | INFO     | __main__:<module>:192 - Training time taken = 200.27 seconds, Evaluation time taken = nan seconds, loss = 0.03273, fid = None
+2026-02-12 02:19:40.375 | INFO     | __main__:<module>:140 - Epoch = 119 / 120
+2026-02-12 02:23:00.884 | INFO     | __main__:<module>:192 - Training time taken = 200.51 seconds, Evaluation time taken = nan seconds, loss = 0.03246, fid = None
+2026-02-12 02:23:00.885 | INFO     | __main__:<module>:140 - Epoch = 120 / 120
+2026-02-12 02:26:21.549 | INFO     | __main__:<module>:161 - Running evaluation
+2026-02-12 02:26:21.550 | INFO     | eval_utils:eval:161 - Generating samples and computing activations
+2026-02-12 20:07:44.270 | INFO     | eval_utils:eval:163 - fake activations shape = (50176, 2048). Computing statistics on generated sample activations
+2026-02-12 20:07:48.945 | INFO     | eval_utils:eval:166 - real activation mean = (2048,), cov = (2048, 2048)
+2026-02-12 20:07:48.945 | INFO     | eval_utils:eval:167 - fake activation mean = (2048,), cov = (2048, 2048)
+2026-02-12 20:09:39.089 | INFO     | __main__:<module>:172 - Generating 100 samples
+2026-02-12 20:11:52.505 | INFO     | __main__:<module>:183 - Generation completed in 133.42 seconds
+2026-02-12 20:11:52.508 | INFO     | __main__:<module>:192 - Training time taken = 200.66 seconds, Evaluation time taken = 63797.54 seconds, loss = 0.03233, fid = 5.125132674163524

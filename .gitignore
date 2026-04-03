@@ -2,3 +2,5 @@ pce/
 .ipynb_checkpoints/
 *.bin
 data/
+__pycache__
+.vscode

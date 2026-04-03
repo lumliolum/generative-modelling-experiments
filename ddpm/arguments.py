@@ -14,6 +14,9 @@ def get_parser() -> argparse.ArgumentParser:
         "--beta-end", type=float, required=True, help="noise schedule betaT"
     )
     parser.add_argument(
+        "--variance-type", type=str, default="fixed_small", help="type of variance to be used for sampling. Can be either fixed_small or fixed_large."
+    )
+    parser.add_argument(
         "--batch-size", type=int, default=128, help="batch size to be used"
     )
     parser.add_argument(
@@ -29,7 +32,16 @@ def get_parser() -> argparse.ArgumentParser:
         "--eval-epochs", type=int, required=True, help="Run evaluation after every eval-epochs"
     )
     parser.add_argument(
+        "--do-grad-clip", action="store_true", help="whether to do gradient clipping or not."
+    )
+    parser.add_argument(
         "--grad-clip", type=float, default=1.0, help="norm of gradient that will be used for clipping."
+    )
+    parser.add_argument(
+        "--do-ema", action="store_true", help="whether to do EMA or not."
+    )
+    parser.add_argument(
+        "--ema-decay", type=float, default=0.999, help="decay to be used for EMA."
     )
 
     parser.add_argument(

@@ -97,6 +97,9 @@ class Evaluator:
             use_fid_inception=True,
         )
         self.model.to(self.device)
+        # go to eval mode
+        self.model.eval()
+
         self.feature_dim = 2048
 
         # we will create dataloader for real dataset

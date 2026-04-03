@@ -1,0 +1,3 @@
+increased the learning rate to 8e-5, but gradient clipping is kept constant.
+
+

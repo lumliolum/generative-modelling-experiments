@@ -2,10 +2,10 @@ import os
 import random
 
 import torch
-import torch.nn as nn
 import numpy as np
-from loguru import logger
+import torch.nn as nn
 import torch.nn.functional as F
+from torch.utils.data import DataLoader
 import torchvision.transforms.v2 as transforms
 
 import matplotlib.pyplot as plt
@@ -55,6 +55,24 @@ def get_renormalize_transform():
         transforms.ToDtype(torch.uint8, scale=True),
         transforms.ToPILImage()
     ])
+
+
+def plot_original_grid(dataset, save_path):
+    indices = np.random.choice(len(dataset), size=100, replace=False)
+    grid_size = 10
+    plt.figure(figsize=(grid_size, grid_size))
+    for i in range(grid_size):
+        for j in range(grid_size):
+            index = i * grid_size + j
+            im, _ = dataset[indices[index]]
+            im = np.asarray(im)
+            plt.subplot(grid_size, grid_size, index + 1)
+            plt.axis('off')
+            plt.imshow(im)
+
+    plt.subplots_adjust(wspace=0.1, hspace=0.1)
+    plt.savefig(save_path)
+    plt.close()
 
 
 def extract_at_t(quantity, ts):
@@ -134,7 +152,7 @@ def mse(noise, noise_hat, t_batch, **kwargs):
     return loss
 
 
-def train_one_step(model, x_batch, timesteps, alphabars, optimizer, grad_clip, device):
+def train_one_step(model, x_batch, timesteps, alphabars, optimizer, grad_clip, device, ema):
     # do zero grad
     optimizer.zero_grad()
 
@@ -163,10 +181,15 @@ def train_one_step(model, x_batch, timesteps, alphabars, optimizer, grad_clip, d
     loss.backward()
 
     # clip gradient norms
-    nn.utils.clip_grad_norm_(model.parameters(), max_norm=grad_clip, norm_type=2)
+    if grad_clip is not None:
+        nn.utils.clip_grad_norm_(model.parameters(), max_norm=grad_clip, norm_type=2)
 
     # optimizer
     optimizer.step()
+
+    # ema update
+    if ema is not None:
+        ema.update()
 
     return loss.item()
 

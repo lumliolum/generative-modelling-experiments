@@ -1,0 +1,44 @@
+2026-03-16 22:20:09.227 | INFO     | __main__:<module>:60 - Using seed = 42, device = cuda:7 and output dir = runs/cifar10/temp/
+2026-03-16 22:20:09.227 | INFO     | __main__:<module>:64 - Saving the config json at path = runs/cifar10/temp/run_config.json
+2026-03-16 22:21:33.930 | INFO     | __main__:<module>:60 - Using seed = 42, device = cuda:7 and output dir = runs/cifar10/temp/
+2026-03-16 22:21:33.931 | INFO     | __main__:<module>:64 - Saving the config json at path = runs/cifar10/temp/run_config.json
+2026-03-16 22:21:35.136 | INFO     | __main__:<module>:73 - length of the dataset = 50000
+2026-03-16 22:21:36.605 | INFO     | __main__:<module>:79 - Computing betas, alphas with timesteps = 1000
+2026-03-16 22:21:37.255 | INFO     | __main__:<module>:89 - Using variance type = fixed_small for sampling
+2026-03-16 22:21:37.673 | INFO     | __main__:<module>:111 - Initializing the model
+2026-03-16 22:21:38.385 | INFO     | __main__:<module>:129 - Initializaing EMA with decay = 0.999
+2026-03-16 22:21:38.416 | INFO     | __main__:<module>:140 - Initializing the Adam optimizer with learning rate = 0.0002
+2026-03-16 22:21:39.295 | INFO     | __main__:<module>:160 - Running for epochs = 2000
+2026-03-16 22:21:39.295 | INFO     | __main__:<module>:162 - Epoch = 1 / 2000
+2026-03-16 22:25:12.787 | INFO     | __main__:<module>:225 - Training time taken = 213.49 seconds, Evaluation time taken = nan seconds, loss = 0.7179, fid = None
+2026-03-16 22:25:12.788 | INFO     | __main__:<module>:162 - Epoch = 2 / 2000
+2026-03-16 22:28:42.708 | INFO     | __main__:<module>:225 - Training time taken = 209.92 seconds, Evaluation time taken = nan seconds, loss = 0.28719, fid = None
+2026-03-16 22:28:42.709 | INFO     | __main__:<module>:162 - Epoch = 3 / 2000
+2026-03-16 22:32:12.638 | INFO     | __main__:<module>:225 - Training time taken = 209.93 seconds, Evaluation time taken = nan seconds, loss = 0.06625, fid = None
+2026-03-16 22:32:12.638 | INFO     | __main__:<module>:162 - Epoch = 4 / 2000
+2026-03-16 22:35:43.100 | INFO     | __main__:<module>:225 - Training time taken = 210.46 seconds, Evaluation time taken = nan seconds, loss = 0.05814, fid = None
+2026-03-16 22:35:43.100 | INFO     | __main__:<module>:162 - Epoch = 5 / 2000
+2026-03-16 22:39:13.290 | INFO     | __main__:<module>:225 - Training time taken = 210.19 seconds, Evaluation time taken = nan seconds, loss = 0.04689, fid = None
+2026-03-16 22:39:13.290 | INFO     | __main__:<module>:162 - Epoch = 6 / 2000
+2026-03-16 22:42:44.181 | INFO     | __main__:<module>:225 - Training time taken = 210.89 seconds, Evaluation time taken = nan seconds, loss = 0.04293, fid = None
+2026-03-16 22:42:44.181 | INFO     | __main__:<module>:162 - Epoch = 7 / 2000
+2026-03-16 22:46:14.360 | INFO     | __main__:<module>:225 - Training time taken = 210.18 seconds, Evaluation time taken = nan seconds, loss = 0.04221, fid = None
+2026-03-16 22:46:14.361 | INFO     | __main__:<module>:162 - Epoch = 8 / 2000
+2026-03-16 22:49:44.301 | INFO     | __main__:<module>:225 - Training time taken = 209.94 seconds, Evaluation time taken = nan seconds, loss = 0.04048, fid = None
+2026-03-16 22:49:44.301 | INFO     | __main__:<module>:162 - Epoch = 9 / 2000
+2026-03-16 22:53:14.702 | INFO     | __main__:<module>:225 - Training time taken = 210.4 seconds, Evaluation time taken = nan seconds, loss = 0.03976, fid = None
+2026-03-16 22:53:14.703 | INFO     | __main__:<module>:162 - Epoch = 10 / 2000
+2026-03-16 22:56:44.901 | INFO     | __main__:<module>:225 - Training time taken = 210.2 seconds, Evaluation time taken = nan seconds, loss = 0.03986, fid = None
+2026-03-16 22:56:44.901 | INFO     | __main__:<module>:162 - Epoch = 11 / 2000
+2026-03-16 23:00:15.424 | INFO     | __main__:<module>:225 - Training time taken = 210.52 seconds, Evaluation time taken = nan seconds, loss = 0.03846, fid = None
+2026-03-16 23:00:15.425 | INFO     | __main__:<module>:162 - Epoch = 12 / 2000
+2026-03-20 11:42:47.370 | INFO     | __main__:<module>:60 - Using seed = 42, device = cuda:6 and output dir = runs/cifar10/temp/
+2026-03-20 11:42:47.371 | INFO     | __main__:<module>:64 - Saving the config json at path = runs/cifar10/temp/run_config.json
+2026-03-20 11:42:48.573 | INFO     | __main__:<module>:73 - length of the dataset = 50000
+2026-03-20 11:42:50.047 | INFO     | __main__:<module>:79 - Computing betas, alphas with timesteps = 1000
+2026-03-20 11:42:50.472 | INFO     | __main__:<module>:89 - Using variance type = fixed_small for sampling
+2026-03-20 11:42:50.927 | INFO     | __main__:<module>:111 - Initializing the model
+2026-03-20 11:42:51.615 | INFO     | __main__:<module>:129 - Initializaing EMA with decay = 0.999
+2026-03-20 11:42:51.639 | INFO     | __main__:<module>:140 - Initializing the Adam optimizer with learning rate = 5e-05
+2026-03-20 11:42:52.416 | INFO     | __main__:<module>:160 - Running for epochs = 2000
+2026-03-20 11:42:52.417 | INFO     | __main__:<module>:162 - Epoch = 1 / 2000
