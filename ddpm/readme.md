@@ -9,7 +9,7 @@ $$
 We ignore the term $KL(q(x_{T}|x_{0}) || p(x_{T}))$ and for $2 \leq t \leq T$ we know that $q(x_{t-1}|x_{t},x_{0}) = \mathcal{N}(x_{t-1}; \mu_{q}(x_{t},x_{0}), \sigma^{2}_{t}I)$ where
 
 $$
-    \mu_{q}(x_{t},x_{0}) = \frac{(1 - \bar{\alpha}_{t-1})\sqrt{\alpha_{t}}}{1 - \bar{\alpha}_{t}}x_{t} + \frac{(1 - \alpha)\sqrt{\bar{\alpha}_{t-1}}}{1 - \bar{\alpha}_{t}}x_{0} \quad \& \quad \sigma^{2}_{t} = \frac{(1 - \alpha_{t})(1 - \bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}
+    \mu_{q}(x_{t},x_{0}) = \frac{(1 - \bar{\alpha}_{t-1})\sqrt{\alpha_{t}}}{1 - \bar{\alpha}_{t}}x_{t} + \frac{(1 - \alpha)\sqrt{\bar{\alpha}_{t-1}}}{1 - \bar{\alpha}_{t}}x_{0} \quad , \quad \sigma^{2}_{t} = \frac{(1 - \alpha_{t})(1 - \bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}
 $$
 
 Using the fact that $x_{t} = \sqrt{\bar{\alpha}_{t}}x_{0} + \sqrt{1 - \bar{\alpha}_{t}}\epsilon$, we can write $\mu_{q}(x_{t},x_{0})$ as $\mu_{q}(x_{t}, \epsilon)$ given by
