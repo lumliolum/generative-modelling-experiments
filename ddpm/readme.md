@@ -12,7 +12,7 @@ $$
     \mu_{q}(x_{t},x_{0}) = \frac{(1 - \bar{\alpha}_{t-1})\sqrt{\alpha_{t}}}{1 - \bar{\alpha}_{t}}x_{t} + \frac{(1 - \alpha)\sqrt{\bar{\alpha}_{t-1}}}{1 - \bar{\alpha}_{t}}x_{0} \quad , \quad \sigma^{2}_{t} = \frac{(1 - \alpha_{t})(1 - \bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}
 $$
 
-Using the fact that $x_t = \sqrt{\bar{\alpha}_t}x_0 + \sqrt{1 - \bar{\alpha}_t}\epsilon$, we can write $\mu_{q}(x_t,x_0)$ as $\mu_{q}(x_t, \epsilon)$ given by
+Using the fact that $x_{t} = \sqrt{\bar{\alpha}_{t}}x_{0} + \sqrt{1 - \bar{\alpha}_{t}}\epsilon$, we can write $\mu_{q}(x_{t},x_{0})$ as $\mu_{q}(x_{t}, \epsilon)$ given by
 
 $$
     \mu_{q}(x_{t}, \epsilon) = \frac{1}{\sqrt{\alpha_{t}}}\left(x_{t} - \frac{1 - \alpha_{t}}{\sqrt{1 - \bar{\alpha}_{t}}}\epsilon\right)
